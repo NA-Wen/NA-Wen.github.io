@@ -3,11 +3,11 @@
   <title>Hexo</title>
   
   
-  <link href="http://na-wen.github.io/NA-Wen.github.io/atom.xml" rel="self"/>
+  <link href="http://na-wen.github.io/atom.xml" rel="self"/>
   
-  <link href="http://na-wen.github.io/NA-Wen.github.io/"/>
+  <link href="http://na-wen.github.io/"/>
   <updated>2022-04-29T08:25:13.302Z</updated>
-  <id>http://na-wen.github.io/NA-Wen.github.io/</id>
+  <id>http://na-wen.github.io/</id>
   
   <author>
     <name>NA-Wen</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://na-wen.github.io/NA-Wen.github.io/2022/04/29/hello-world/"/>
-    <id>http://na-wen.github.io/NA-Wen.github.io/2022/04/29/hello-world/</id>
+    <link href="http://na-wen.github.io/2022/04/29/hello-world/"/>
+    <id>http://na-wen.github.io/2022/04/29/hello-world/</id>
     <published>2022-04-29T08:03:51.075Z</published>
     <updated>2022-04-29T08:25:13.302Z</updated>
     
