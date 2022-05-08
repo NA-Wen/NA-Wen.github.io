@@ -6,16 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://NA-Wen.github.io">
-  <title>NA-Wen&#39;s blogs</title>
+  <title>字符与字符串 | NA-Wen&#39;s blogs</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="不太懂,很好奇">
-<meta property="og:type" content="website">
-<meta property="og:title" content="NA-Wen&#39;s blogs">
-<meta property="og:url" content="http://na-wen.github.io/index.html">
+  <meta name="description" content="[TOC] &lt;">
+<meta property="og:type" content="article">
+<meta property="og:title" content="字符与字符串">
+<meta property="og:url" content="http://na-wen.github.io/2022/05/08/%E5%AD%97%E7%AC%A6%E4%B8%8E%E5%AD%97%E7%AC%A6%E4%B8%B2/index.html">
 <meta property="og:site_name" content="NA-Wen&#39;s blogs">
-<meta property="og:description" content="不太懂,很好奇">
+<meta property="og:description" content="[TOC] &lt;">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2022-05-08T04:41:58.000Z">
+<meta property="article:modified_time" content="2022-05-08T04:44:45.112Z">
 <meta property="article:author" content="NA-Wen">
+<meta property="article:tag" content="博客">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="NA-Wen&#39;s blogs" type="application/atom+xml">
@@ -154,16 +157,14 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-    <article id="post-字符与字符串" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+            <article id="post-字符与字符串" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2022/05/08/%E5%AD%97%E7%AC%A6%E4%B8%8E%E5%AD%97%E7%AC%A6%E4%B8%B2/">字符与字符串</a>
+    <h1 class="article-title" itemprop="name">
+      字符与字符串
     </h1>
   
 
@@ -177,10 +178,39 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p>[TOC]</p>
-<p>&lt;
-        
-          <a class="article-more-a" href="/2022/05/08/%E5%AD%97%E7%AC%A6%E4%B8%8E%E5%AD%97%E7%AC%A6%E4%B8%B2/#more">more >></a>
-        
+<p>&lt;<span id="more"></span>&gt;</p>
+<h2 id="字符系列类型"><a href="#字符系列类型" class="headerlink" title="字符系列类型"></a>字符系列类型</h2><p>char： 1 个字节 窄字符</p>
+<p>wchar_t： 宽字符</p>
+<p>char16_t   char32_t</p>
+<p>不同的前缀对应着不同的类型：分别为  无前缀，L,u，U</p>
+<h3 id="字符串字面常量"><a href="#字符串字面常量" class="headerlink" title="字符串字面常量"></a>字符串字面常量</h3><p>前缀部分+核心部分（类似字符）</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;string&quot;</span></span><br><span class="line"><span class="string">u8&quot;string&quot;</span>      <span class="comment">//string :char UTF 8</span></span><br><span class="line"><span class="string">L&quot;string&quot;</span></span><br><span class="line"><span class="string">u&quot;string&quot;</span></span><br><span class="line"><span class="string">U&quot;string&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>其中  wchar_t  对应的标准输入输出流为： wcin  wcout</p>
+<p>每个字符集的组成，需要字符编码，需要具体字符；间有着映射关系</p>
+<h3 id="汉字的输入输出"><a href="#汉字的输入输出" class="headerlink" title="汉字的输入输出"></a>汉字的输入输出</h3><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">locale basic_ios :: <span class="built_in">imbue</span>(<span class="type">const</span> locale&amp;_Loc);</span><br><span class="line"><span class="comment">//_Loc  本地系统局域设置</span></span><br><span class="line">locale ::<span class="built_in">locale</span> (<span class="type">const</span> <span class="type">char</span> *std_name);</span><br><span class="line"><span class="comment">//locale 类的构造函数  根据字符串的类型创建局域设置</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//使用</span></span><br><span class="line">wcout.<span class="built_in">imbue</span>(<span class="built_in">locale</span>(<span class="string">&quot;chs&quot;</span>));</span><br></pre></td></tr></table></figure>
+
+<p>是只能用wchar_t 才能完成汉字的输出吗？不是 和char最大的区别就在于单个的大小不同</p>
+<h2 id="字符数组形式的字符串"><a href="#字符数组形式的字符串" class="headerlink" title="字符数组形式的字符串"></a>字符数组形式的字符串</h2><p>将多字节字符串转换为宽字符字符串的函数：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">MultiByteToWideChar</span><span class="params">(UINT CodePage, DWORD dwFlags, LPCSTR lpMultiByteStr, <span class="type">int</span> cbMultiByte, LPWSTR lpWideCharStr, <span class="type">int</span> cchWideChar)</span></span>;</span><br><span class="line">    </span><br><span class="line"><span class="comment">//codepage  CP_ACP   CP_UTF8</span></span><br><span class="line"><span class="comment">//dwFlags   指定一下字符串转换的方式</span></span><br><span class="line"><span class="comment">//lpMultiByteStr  待转换的字符串  </span></span><br><span class="line"><span class="comment">//cbMultiByte    待转换的字符个数   若为-1，表示要求待转换的字符串必须以0结尾</span></span><br><span class="line"><span class="comment">//lpWideCharStr   转换后接收的内存空间</span></span><br><span class="line"><span class="comment">//cchWideChar   转换后接受的内存空间大小</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//具体使用</span></span><br><span class="line"><span class="type">char</span> pc[]=<span class="string">&quot;我想睡觉&quot;</span>；</span><br><span class="line"><span class="type">wchar_t</span>  pcw[<span class="number">100</span>];</span><br><span class="line"><span class="built_in">MultiByteToWideChar</span>(CP_ACP,<span class="number">0</span>,pc,<span class="number">-1</span>,pcw,<span class="number">100</span>);</span><br><span class="line">wcout.<span class="built_in">imbue</span>(<span class="built_in">locale</span>(<span class="string">&quot;chs&quot;</span>));</span><br><span class="line">wcout&lt;&lt;pcw&lt;&lt;endl;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">size_t</span> <span class="title">mbstowcs</span><span class="params">(<span class="type">wchar_t</span> *wcstr, <span class="type">const</span> <span class="type">char</span> *mbstr, <span class="type">size_t</span> count)</span></span>;</span><br><span class="line"><span class="comment">//也可以进行转换  但是不安全 </span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">errno_t</span> <span class="title">mbstowcs_s</span><span class="params">(<span class="type">size_t</span> *pReturnValue, <span class="type">wchar_t</span> *wcstr, <span class="type">size_t</span> sizeInWords, <span class="type">const</span> <span class="type">char</span> *mbstr, <span class="type">size_t</span> count)</span></span>;</span><br><span class="line"><span class="comment">//这个VC平台支持</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">char</span> *<span class="title">setlocale</span><span class="params">(<span class="type">int</span> category, <span class="type">const</span> <span class="type">char</span> *locale)</span></span>;</span><br></pre></td></tr></table></figure>
+
+<p>将宽字节字符串转换为多字节字符串</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">errno_t</span> <span class="title">wcstombs_s</span><span class="params">(<span class="type">size_t</span> *pReturnValue, <span class="type">char</span> *mbstr, <span class="type">size_t</span> sizeInBytes, <span class="type">const</span> <span class="type">wchar_t</span> *wcstr, <span class="type">size_t</span> count)</span></span>;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h3 id="字符串类"><a href="#字符串类" class="headerlink" title="字符串类"></a>字符串类</h3><p>string   wstring  u16string u32string </p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">cout &lt;&lt; sh &lt;&lt; <span class="string">&quot;: string\n&quot;</span> &lt;&lt; s8 &lt;&lt; <span class="string">&quot;: string UTF-8\n&quot;</span>;</span><br><span class="line">    <span class="comment">// cout &lt;&lt; sw &lt;&lt; &quot;: wstring\n&quot;;</span></span><br><span class="line">    <span class="comment">// cout &lt;&lt; s6 &lt;&lt; &quot;: u16string\n&quot; &lt;&lt; s2 &lt;&lt; &quot;: u32string\n&quot;;</span></span><br><span class="line">    wcout.<span class="built_in">imbue</span>(<span class="built_in">locale</span>(<span class="string">&quot;chs&quot;</span>));</span><br><span class="line">    <span class="comment">// wcout &lt;&lt; sh &lt;&lt; &quot;: string\n&quot; &lt;&lt; s8 &lt;&lt; &quot;: string UTF-8\n&quot;;</span></span><br><span class="line">    wcout &lt;&lt; sw &lt;&lt; <span class="string">&quot;: wstring\n&quot;</span>;</span><br><span class="line">    <span class="comment">// wcout &lt;&lt; s6 &lt;&lt; &quot;: u16string\n&quot; &lt;&lt; s2 &lt;&lt; &quot;: u32string\n&quot;;</span></span><br><span class="line"><span class="comment">//惊闻此处去掉注释编译会不通过 但自己跑了去掉注释没有什么问题...</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="构造函数"><a href="#构造函数" class="headerlink" title="构造函数"></a>构造函数</h4><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">string <span class="title">s</span><span class="params">(<span class="string">&quot;12345678&quot;</span>)</span></span>;</span><br><span class="line"><span class="function">string <span class="title">b</span><span class="params">(s,<span class="number">2</span>,<span class="number">3</span>)</span></span>;</span><br><span class="line"><span class="comment">//345</span></span><br><span class="line"><span class="function">string <span class="title">c</span><span class="params">(s,<span class="number">0</span>,<span class="number">7</span>)</span></span>;</span><br><span class="line"><span class="comment">//1234567</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">string</span> (<span class="number">4</span>,<span class="string">&#x27;a&#x27;</span>);</span><br><span class="line"><span class="comment">//aaaa</span></span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h4 id="迭代器"><a href="#迭代器" class="headerlink" title="迭代器"></a>迭代器</h4><h4 id="容量与长度"><a href="#容量与长度" class="headerlink" title="容量与长度"></a>容量与长度</h4><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">s.<span class="built_in">capacity</span>();</span><br><span class="line">s.<span class="built_in">length</span>();</span><br><span class="line">s.<span class="built_in">size</span>();</span><br></pre></td></tr></table></figure>
+
+<p>其他的函数操作与vector类似</p>
+<h4 id="字符串转换为字符数组的形式"><a href="#字符串转换为字符数组的形式" class="headerlink" title="字符串转换为字符数组的形式"></a>字符串转换为字符数组的形式</h4><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">const</span> charT* <span class="title">c_str</span><span class="params">()</span></span>;</span><br><span class="line"><span class="function"><span class="type">const</span> charT * <span class="title">data</span><span class="params">()</span></span>;</span><br><span class="line">s.<span class="built_in">data</span>();</span><br><span class="line">s.<span class="built_in">c_str</span>();</span><br></pre></td></tr></table></figure>
+
+<h4 id="成员"><a href="#成员" class="headerlink" title="成员"></a>成员</h4><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">s.<span class="built_in">at</span>(<span class="number">1</span>);</span><br><span class="line">s[<span class="number">1</span>];</span><br><span class="line">s.<span class="built_in">front</span>();</span><br><span class="line">s.<span class="built_in">back</span>();</span><br></pre></td></tr></table></figure>
+
+<p>有待学习的问题： 编码方式 </p>
+
       
 
       
@@ -202,16 +232,75 @@
       
 
       
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2022/05/08/%E5%AD%97%E7%AC%A6%E4%B8%8E%E5%AD%97%E7%AC%A6%E4%B8%B2/">展开全文 >></a>
-        </p>
-      
 
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPYAAAD2CAAAAADAeSUUAAADMUlEQVR42u3awW6rQAwF0P7/T+dtK72EXtsgEXNYRS2BOZOF5ev5+Ymv16/r09//v37fk3/r+F3Jqk67sLGxsb+EnS/9+DXJso4/J2/pPefN07CxsbHXsfNH59R8E5PSlW9fsk5sbGzsJ7OPGclyj9uMXjODjY2NjT0pYPlCk+YhaT/yDcLGxsZ+DnsS8efRT7J9vSDpwiwNGxsb+/bsfCp6/8+XzLexsbGxb8x+Fa/eKyeHeJJ2pazAxsbGXsTuLT1vKqqxfiESihuYj3diY2NjP4CdDGWrx3cmkVBvIP1xhdjY2Njr2GeNBxJGdaicr7DcimBjY2OvY1dfljQzk5Fw3q5Uiyg2Njb2VnbSJOQlrRr3Tw7f5GEWNjY29j725LBOdRF5K5KUyflPhY2Njb2Jne/KnNEbAOfFrPAjYWNjY69gT+L4ZKR6XaiUh1nY2NjYu9mTKL83ZM1HDtVnJvEWNjY29j52r1BVX1xNs6pbXz1ahI2Njb2DPQni8yFr9WBQsh35+OHNf7GxsbEXsZuThJMWXR08zBuSwjQbGxsb+6vYvWJQLTCT0D8ptOU4DBsbG3sFu3rgZjLo7W3c/M4/TidhY2NjL2L3mopeO1E+UtO6/6MLGxsbexH7uBnovea4wExioN5goHA6CRsbG/sL2XlYXx2dVpeetxOnzUCwsbGxV7Anyzpr4Jo3J5Miio2Njb2bXe5dksimVX6qxa/XCGFjY2NvYvdCn3wAnMf6+fZNGqdR1oWNjY19S/a8tcjx1YJUHTafMCrAxsbG/nJ2NVp6ja9JeWuWq3miho2NjX1L9rxo5YOBc4fE+TM/ZmnY2NjY69h5k5A3EtXyMx8qR+0HNjY29jp29S/V+H4OmHRab9aGjY2NvYLdi4HmoVJSrqLTRsVy21w6NjY29o3Zk7p3XdtQHQD0Ii1sbGzsTexe6N8rIUl0lbc9+fOxsbGxn8DOjzb2IqTkW/kGVbcGGxsbGztvIc7agrw0NleIjY2N/WB2b9ybtDfVUGkyVMbGxsbex64OZXuD1ep2VJ98SZaGjY2NfXt2XpZ6I968dcmLVn6UZ3RwBxsbG/vu7H8iCvh04YelPgAAAABJRU5ErkJggg==" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
       
       <div class="clearfix"></div>
     </div>
   </div>
 </article>
+
+  
+<nav id="article-nav">
+  
+  
+    <a href="/2022/05/05/%E4%BA%94%E4%B8%80%E5%B0%8F%E8%AE%B0/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">五一小记</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -231,287 +320,14 @@
 
 
 
-
   
-    <article id="post-五一小记" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2022/05/05/%E4%BA%94%E4%B8%80%E5%B0%8F%E8%AE%B0/">五一小记</a>
-    </h1>
   
 
-        
-        <a href="/2022/05/05/%E4%BA%94%E4%B8%80%E5%B0%8F%E8%AE%B0/" class="archive-article-date">
-  	<time datetime="2022-05-05T15:53:48.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-05-05</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>some pieces about this break</p>
-<p>[TOC]</p>
-        
-          <a class="article-more-a" href="/2022/05/05/%E4%BA%94%E4%B8%80%E5%B0%8F%E8%AE%B0/#more">more >></a>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">随笔</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2022/05/05/%E4%BA%94%E4%B8%80%E5%B0%8F%E8%AE%B0/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-binary search" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2022/05/05/binary%20search/">binary search</a>
-    </h1>
   
 
-        
-        <a href="/2022/05/05/binary%20search/" class="archive-article-date">
-  	<time datetime="2022-05-05T13:25:47.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-05-05</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>[TOC]</p>
-        
-          <a class="article-more-a" href="/2022/05/05/binary%20search/#more">more >></a>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">博客</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2022/05/05/binary%20search/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="pages-resources" class="article article-type-pages  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2022/05/01/resources/">resources</a>
-    </h1>
   
 
-        
-        <a href="/2022/05/01/resources/" class="archive-article-date">
-  	<time datetime="2022-05-01T14:46:39.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-05-01</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2022/05/01/resources/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-hello-world" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2022/04/29/hello-world/">Hello World</a>
-    </h1>
-  
-
-        
-        <a href="/2022/04/29/hello-world/" class="archive-article-date">
-  	<time datetime="2022-04-29T08:03:51.075Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-04-29</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="New-Start"><a href="#New-Start" class="headerlink" title="New   Start"></a>New   Start</h2><p>在踩了诸多坑之后终于！</p>
-<p>会定期发布自己的笔记&#x2F;心得，主要为技术相关，但不仅限于技术。</p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2022/04/29/hello-world/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
   
 
 
@@ -539,8 +355,8 @@
     <script>
 	var yiliaConfig = {
 		mathjax: true,
-		isHome: true,
-		isPost: false,
+		isHome: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
