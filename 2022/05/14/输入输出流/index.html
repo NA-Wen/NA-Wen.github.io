@@ -6,19 +6,22 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://NA-Wen.github.io">
-  <title>Hello World | NA-Wen&#39;s blogs</title>
+  <title>输入输出流 | NA-Wen&#39;s blogs</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="New   Start在踩了诸多坑之后终于！ 会定期发布自己的笔记&#x2F;心得，主要为技术相关，但不仅限于技术。">
+  <meta name="description" content="基本概念+标准输入输出流+格式控制+文件操作">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://na-wen.github.io/2022/04/29/hello-world/index.html">
+<meta property="og:title" content="输入输出流">
+<meta property="og:url" content="http://na-wen.github.io/2022/05/14/%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA%E6%B5%81/index.html">
 <meta property="og:site_name" content="NA-Wen&#39;s blogs">
-<meta property="og:description" content="New   Start在踩了诸多坑之后终于！ 会定期发布自己的笔记&#x2F;心得，主要为技术相关，但不仅限于技术。">
+<meta property="og:description" content="基本概念+标准输入输出流+格式控制+文件操作">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2022-04-29T08:03:51.075Z">
-<meta property="article:modified_time" content="2022-05-01T06:51:40.923Z">
+<meta property="og:image" content="c:/Users/Dang_Yufan/AppData/Roaming/Typora/typora-user-images/image-20220512082715437.png">
+<meta property="article:published_time" content="2022-05-14T09:49:59.000Z">
+<meta property="article:modified_time" content="2022-05-14T09:51:54.931Z">
 <meta property="article:author" content="NA-Wen">
+<meta property="article:tag" content="博客">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="c:/Users/Dang_Yufan/AppData/Roaming/Typora/typora-user-images/image-20220512082715437.png">
   
     <link rel="alternative" href="/atom.xml" title="NA-Wen&#39;s blogs" type="application/atom+xml">
   
@@ -156,28 +159,59 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-hello-world" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-输入输出流" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      Hello World
+      输入输出流
     </h1>
   
 
         
-        <a href="/2022/04/29/hello-world/" class="archive-article-date">
-  	<time datetime="2022-04-29T08:03:51.075Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-04-29</time>
+        <a href="/2022/05/14/%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA%E6%B5%81/" class="archive-article-date">
+  	<time datetime="2022-05-14T09:49:59.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-05-14</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="New-Start"><a href="#New-Start" class="headerlink" title="New   Start"></a>New   Start</h2><p>在踩了诸多坑之后终于！</p>
-<p>会定期发布自己的笔记&#x2F;心得，主要为技术相关，但不仅限于技术。</p>
+        <p>   <strong>基本概念+标准输入输出流+格式控制+文件操作</strong></p>
+<span id="more"></span>
+
+
+
+<h2 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h2><p>流 数据单元序列</p>
+<p>读写操作：从文件读到缓冲区，从缓冲区写到文件中</p>
+<p><img src="C:\Users\Dang_Yufan\AppData\Roaming\Typora\typora-user-images\image-20220512082715437.png" alt="image-20220512082715437"></p>
+<h2 id="标准输入输出流"><a href="#标准输入输出流" class="headerlink" title="标准输入输出流"></a>标准输入输出流</h2><p>istream的实例对象：std::cin</p>
+<p>输入操作通过&gt;&gt;（重载过的运算符）实现</p>
+<p>&#x2F;&#x2F;读取字符串时会忽略空白符（space，\t,\n,\r,\f,\v）</p>
+<p>判断流状态的函数</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">bool</span> <span class="title">basic_ios::good</span><span class="params">()</span><span class="type">const</span></span>;</span><br><span class="line"><span class="comment">//true  false输入是不是合法</span></span><br><span class="line"><span class="function"><span class="type">bool</span> <span class="title">basic_ios::eof</span><span class="params">()</span><span class="type">const</span></span>;</span><br><span class="line"><span class="comment">//是否越过流的末尾，注意是越过  ；true,false</span></span><br><span class="line">	<span class="keyword">if</span> (cin.<span class="built_in">eof</span>())</span><br><span class="line">    	cout &lt;&lt; <span class="string">&quot;输入结束。&quot;</span> &lt;&lt; endl;</span><br><span class="line"><span class="comment">/*在Windows系列操作系统下，按下组合键Ctrl+z表明数据输入结束；</span></span><br><span class="line"><span class="comment">在Unix和Linux包括MAC OS系列操作系统下，按下组合键Ctrl+d表明数据输入结束*/</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">basic_ios::clear</span><span class="params">( )</span></span>;</span><br><span class="line"><span class="comment">//重置流状态为合法状态</span></span><br><span class="line"><span class="function">basic_istream&amp; <span class="title">basic_istream::ignore</span><span class="params">(<span class="type">int</span> count = <span class="number">1</span>, <span class="type">int</span> delim = traits_type::eof())</span></span>;</span><br><span class="line"><span class="comment">//跳过部分字节 注意要再流为合法的状态下使用</span></span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;请输入一个整数:&quot;</span>;</span><br><span class="line">    cin.<span class="built_in">ignore</span>(<span class="number">3</span>);</span><br><span class="line">    cin &gt;&gt; a;</span><br><span class="line"><span class="comment">//输入为12345，输出为45</span></span><br><span class="line"><span class="function">basic_istream&lt;Elem, Tr&gt;&amp; <span class="title">basic_istream::getline</span><span class="params">(Elem *s, <span class="type">int</span> n)</span></span>;</span><br><span class="line"><span class="comment">//读取一行数据</span></span><br><span class="line">	<span class="type">char</span> s[<span class="number">100</span>];</span><br><span class="line">    cin.<span class="built_in">getline</span>(s, <span class="number">5</span>);</span><br><span class="line"><span class="comment">//读取到1234</span></span><br><span class="line">cin.<span class="built_in">get</span>()<span class="comment">//只读一个</span></span><br><span class="line">cin.<span class="built_in">read</span>()<span class="comment">//读取</span></span><br><span class="line">     cin.<span class="built_in">read</span>(s, <span class="number">5</span>);</span><br><span class="line">	 s[<span class="number">5</span>] = <span class="number">0</span>; <span class="comment">// 不能删除这行，read不在s最后补0</span></span><br><span class="line">cin.<span class="built_in">peek</span>()<span class="comment">//返回流要读取的下一个字符</span></span><br><span class="line">    </span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>输出</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">cout.<span class="built_in">put</span>(<span class="string">&#x27;a&#x27;</span>);<span class="comment">//</span></span><br><span class="line"><span class="type">char</span> s[<span class="number">100</span>] = &#123;<span class="string">&#x27;a&#x27;</span>, <span class="string">&#x27;b&#x27;</span>, <span class="string">&#x27;c&#x27;</span>, <span class="string">&#x27;d&#x27;</span>, <span class="number">0</span>&#125;;</span><br><span class="line">cout.<span class="built_in">write</span>(s,<span class="number">2</span>);<span class="comment">//</span></span><br><span class="line"></span><br><span class="line">cout.<span class="built_in">flush</span>();<span class="comment">//</span></span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>输出重定向：命令行：在命令行状态下运行</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">cout &lt;&lt; <span class="string">&quot;cout&quot;</span> &lt;&lt; endl;</span><br><span class="line">    cerr &lt;&lt; <span class="string">&quot;cerr&quot;</span> &lt;&lt; endl;</span><br><span class="line">    clog &lt;&lt; <span class="string">&quot;clog&quot;</span> &lt;&lt; endl;</span><br><span class="line"></span><br><span class="line"><span class="comment">/*命令行状态下，运行</span></span><br><span class="line"><span class="comment">D:\Examples\CP_Test\Debug&gt;CP_Test   1&gt;out.txt   2&gt;err.txt</span></span><br><span class="line"><span class="comment">文件“out.txt”内容变为: </span></span><br><span class="line"><span class="comment">cout</span></span><br><span class="line"><span class="comment">文件“err.txt”内容变为:</span></span><br><span class="line"><span class="comment">cerr</span></span><br><span class="line"><span class="comment">clog*/</span></span><br><span class="line"></span><br><span class="line"><span class="function">ofstream <span class="title">logFile</span><span class="params">(<span class="string">&quot;log.txt&quot;</span>)</span></span>;</span><br><span class="line">clog.<span class="built_in">rdbuf</span>(logFile.<span class="built_in">rdbuf</span>());</span><br><span class="line">clog &lt;&lt; <span class="string">&quot;第一条日志。&quot;</span> &lt;&lt; endl;</span><br><span class="line">clog &lt;&lt; <span class="string">&quot;第二条日志。&quot;</span> &lt;&lt; endl;</span><br><span class="line"></span><br><span class="line"><span class="comment">/*在命令行状态下，运行</span></span><br><span class="line"><span class="comment">D:\Examples\CP_Test\Debug&gt;CP_Test</span></span><br><span class="line"><span class="comment">请按任意键继续. . .</span></span><br><span class="line"><span class="comment">文件“log.txt”内容变为: </span></span><br><span class="line"><span class="comment">第一条日志。</span></span><br><span class="line"><span class="comment">第二条日志。</span></span><br><span class="line"><span class="comment">*/</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="格式控制"><a href="#格式控制" class="headerlink" title="格式控制"></a>格式控制</h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br></pre></td><td class="code"><pre><span class="line">cout&lt;&lt;dec&lt;&lt;<span class="number">10</span>;</span><br><span class="line">cout&lt;&lt;hex&lt;&lt;<span class="number">10</span>;<span class="comment">//16</span></span><br><span class="line">cout&lt;&lt;oct&lt;&lt;<span class="number">10</span>;<span class="comment">//8</span></span><br><span class="line"><span class="comment">//整数的不同进制</span></span><br><span class="line"></span><br><span class="line">cout&lt;&lt;fixed;<span class="comment">//小数</span></span><br><span class="line">cout&lt;&lt;scientific;<span class="comment">//科学计数法</span></span><br><span class="line">cout&lt;&lt;hexfloat;<span class="comment">//16</span></span><br><span class="line">cout&lt;&lt;defaultfloat;<span class="comment">//系统默认的方式</span></span><br><span class="line"><span class="comment">//浮点数的不同格式</span></span><br><span class="line"></span><br><span class="line">cout.<span class="built_in">width</span>(<span class="number">6</span>);<span class="comment">//设置输出的宽度</span></span><br><span class="line">cout.<span class="built_in">fill</span>(<span class="string">&#x27;x&#x27;</span>);</span><br><span class="line">cout &lt;&lt; <span class="string">&quot;12&quot;</span>; <span class="comment">// 输出: xxxx12</span></span><br><span class="line"></span><br><span class="line">cout&lt;&lt;left;</span><br><span class="line">cout&lt;&lt;right;</span><br><span class="line">cout&lt;&lt;internal;</span><br><span class="line">	<span class="comment">//对于负数，则在负号与绝对值之间填充字符；</span></span><br><span class="line">	<span class="comment">//否则输出方式同right对应的设置。</span></span><br><span class="line">	cout.<span class="built_in">width</span>(<span class="number">5</span>);</span><br><span class="line">	cout.<span class="built_in">fill</span>(<span class="string">&#x27;x&#x27;</span>);</span><br><span class="line">	cout &lt;&lt; internal;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;in&quot;</span> &lt;&lt; endl; <span class="comment">// 输出xxxin↙</span></span><br><span class="line">	cout.<span class="built_in">width</span>(<span class="number">5</span>);	</span><br><span class="line">	cout &lt;&lt; <span class="number">-10</span> &lt;&lt; endl; <span class="comment">// 输出-xx10↙</span></span><br><span class="line"><span class="comment">//左右对齐</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//精度：在默认的输出形式等格式中，指的是有效数字的个数。</span></span><br><span class="line"><span class="comment">//在小数输出形式等格式上，指的是小数点后数字的个数</span></span><br><span class="line"><span class="function">streamsize <span class="title">ios_base::precision</span><span class="params">()</span> <span class="type">const</span></span>;</span><br><span class="line"><span class="comment">//返回: 当前精度。</span></span><br><span class="line"><span class="function">streamsize <span class="title">ios_base::precision</span><span class="params">(streamsize p)</span></span>;</span><br><span class="line"><span class="comment">//将输出精度设置为p。</span></span><br><span class="line"><span class="comment">//返回: 在调用本函数之前的精度。</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="文件输入输出流"><a href="#文件输入输出流" class="headerlink" title="文件输入输出流"></a>文件输入输出流</h2><p>文件流：存储在硬盘等媒介中的数据流被称为文件流；输入叫读，输出叫写 ；</p>
+<p>ifstream  ofstream  </p>
+<fstream>
+
+<h3 id="文件流操作的基本步骤"><a href="#文件流操作的基本步骤" class="headerlink" title="文件流操作的基本步骤"></a>文件流操作的基本步骤</h3><p>创建文件流的实例对象并打开文件</p>
+<p>读写操作</p>
+<p>关闭文件</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;fstream&gt;</span></span></span><br><span class="line"><span class="function">ifstream  <span class="title">fileObject</span> <span class="params">(<span class="string">&quot;in.txt&quot;</span>)</span></span>;</span><br><span class="line"><span class="comment">//创建并打开</span></span><br><span class="line"><span class="comment">//open(&quot;filename&quot;,openmode)中openmode为整数</span></span><br><span class="line"><span class="keyword">if</span> (fileObject.<span class="built_in">fail</span>())</span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;文件&quot;</span> &lt;&lt; filename &lt;&lt; <span class="string">&quot;打开失败。\n&quot;</span>;</span><br><span class="line">        <span class="keyword">return</span>;</span><br><span class="line">    &#125; </span><br><span class="line"><span class="comment">//异常检测 若为真则打开失败</span></span><br><span class="line">	<span class="type">int</span> c;</span><br><span class="line">    <span class="keyword">do</span></span><br><span class="line">    &#123;</span><br><span class="line">        c = fileObject.<span class="built_in">get</span>();</span><br><span class="line">        <span class="comment">//读取</span></span><br><span class="line">        <span class="keyword">if</span> (fileObject.<span class="built_in">good</span>())<span class="comment">//判断读取的情况</span></span><br><span class="line">            cout.<span class="built_in">put</span>(c);</span><br><span class="line">    &#125; <span class="keyword">while</span> (!fileObject.<span class="built_in">eof</span>());</span><br><span class="line"></span><br><span class="line">fileObject&gt;&gt;a;</span><br><span class="line"><span class="comment">//读取</span></span><br><span class="line">fileObject&lt;&lt;a&lt;&lt;endl;</span><br><span class="line"><span class="comment">//写入</span></span><br><span class="line">fileObject.<span class="built_in">close</span>();</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
 
       
 
@@ -186,6 +220,17 @@
     <div class="article-info article-info-index">
       
       
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">博客</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
       
 
       
@@ -236,7 +281,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAACKUlEQVR42u3aQY7EIAwF0b7/pTPbkTIh9Q1pTUyxakWI8Hrh2JjPB4/jNH4/v/p9nn+15vn554khQ4aM1zKO4SCM8aav5o/n8L3JkCFjH8ZVBFu7FfKWq3Vu9ixDhgwZIL3jwTGFyZAhQ8ZMwCXF6jiY/ovvhgwZMl7CIEXs1RLzAfertbgMGTJeyOCn7t///Uh/Q4YMGa9iHOHgqV7tuK24KxkyZLRm8ABXa1LyVkEacGXIkCGDbCV+TanZGZSsMmTIaMpIW4wpjATiBRc4ZMiQsTEjPbIn202P/lHpK0OGjA0Y4+XmEzgO5tcs/gi4MmTIaMpIkzaSCPJrGekfdLMHGTJkbMOYf1JDpm1OlOfKkCGjEaNWlKZPeGmaltAyZMjozZg51q81ONNEMyhfZciQ0ZQxnkQ2PVP68mM7fslDhgwZXRkk/NWuXMxnrMF8GTJkNGXMpGgz4Xvtu2TIkNGb8XRjYNXKCCZDhozWjDQ5mw/BzyFlyJDRlZFe3uLXINLyNW0/3HQ5ZMiQ0Y5BDvdrL+DHebzxEH8xZMiQ0YjBG5b8uhjf9NThoAwZMpoyjnCsCsc8rYyTQhkyZLRj8JGSeLHKA3EtrMuQIaMHo1agpskfxxT3IEOGjA0YtSKTzxmz+Rcg6G/IkCFjYwa5kLH2MhlqFciQIUNGKclLAysBLE4NZciQ8SpG2sLkZScPuGmCKEOGjH0YU6VjqVitlbUkrZQhQ0Y7xg/CUX+tPklduAAAAABJRU5ErkJggg==" alt="微信分享二维码">
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeCAAAAAB3DOFrAAACvklEQVR42u3aQU7EMAwFUO5/aZBYsaCZbzvWgPS6GtGZNq9IsfuTj4/4+Pw+nv7+82z+zfwKT7+9duDh4eG1hv50nAd9HuLT1fKhn8cT3QUPDw9vjXcuBufJ+uns0+fz9/PrRAUMDw8P76286kCrzXFyRzw8PLz/xatO1nl8cG6X8fDw8P4mLwkj8hA2Lwl5+VnPWvDw8PBiXm/ifu/nxfU9PDw8vMGqer4k1gsgJkFGNE48PDy8Bd5kS9OknU3a7vk2Lzw8PLxtXh4uJJg5IP/+izAXDw8Pb41XbXAnMWuyJatXZl6k1Hh4eHiXeNWf5UUi30RVfSgXcms8PDy8Fi+PXHtNc+8u1TFE7wp4eHh4l3j5QlQSPVQj13lwHJ3Fw8PDW+PlYUT+8l9d0Oo9xKgw4OHh4V3i9Zbq8/f9POTN44+8IOHh4eHt8aohwplxrV6NtyDg4eHhbfDyaboav1YDjmpwnIfIeHh4eHd51QHln6tnE2S+laH5vPHw8PBavDyurf42P3oRc1Tx8PDw8BZ41Wa6tz0rn9xHrTYeHh7eAq86BVcD37xFzmHN1hwPDw/vEi+ZdqshbM6ulp9q2IGHh4e3zcsX76uD692xt/HrlzACDw8Pb403iU2rm67yzVuTEBkPDw9vg5eXhMmk3ysk+VJctAyGh4eHd5VX3TJVjQaqxSYpLXkTj4eHh7fB6wWvk8a3t0mrV67w8PDw9nj59qZexFAdXL44F1U8PDw8vEu8z+JRbcfzJrtXEl48Mjw8PLwFXnWOrU7cvcn9/FAm48HDw8O7xcsn5eoEnce4vVgkeiXAw8PDW+NNooe78UevLcbDw8P7y7xePFFdKrsVPePh4eG9l3cuFb01qV4cXNjMioeHh7fGq26rqkYYk2Ww/N8wylrw8PDwLi19VS+dI3utfP5w8fDw8BZ4X/oyFtsJQzKOAAAAAElFTkSuQmCC" alt="微信分享二维码">
     </div>
 </div>
 
@@ -250,15 +295,11 @@
   
 <nav id="article-nav">
   
-    <a href="/2022/05/01/resources/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          resources
-        
-      </div>
-    </a>
   
+    <a href="/2022/05/08/%E5%AD%97%E7%AC%A6%E4%B8%8E%E5%AD%97%E7%AC%A6%E4%B8%B2/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">字符与字符串</div>
+      <i class="icon-circle-right"></i>
+    </a>
   
 </nav>
 
