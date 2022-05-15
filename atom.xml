@@ -6,7 +6,7 @@
   <link href="http://na-wen.github.io/atom.xml" rel="self"/>
   
   <link href="http://na-wen.github.io/"/>
-  <updated>2022-05-14T09:51:54.931Z</updated>
+  <updated>2022-05-15T13:36:32.689Z</updated>
   <id>http://na-wen.github.io/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>小记（2）</title>
+    <link href="http://na-wen.github.io/2022/05/15/%E5%B0%8F%E8%AE%B0%EF%BC%882%EF%BC%89/"/>
+    <id>http://na-wen.github.io/2022/05/15/%E5%B0%8F%E8%AE%B0%EF%BC%882%EF%BC%89/</id>
+    <published>2022-05-15T13:09:22.000Z</published>
+    <updated>2022-05-15T13:36:32.689Z</updated>
+    
+    <content type="html"><![CDATA[<p>小记,最近十天的学习，工作，以及反思</p><span id="more"></span><h2 id="学习"><a href="#学习" class="headerlink" title="学习"></a>学习</h2><p>大作业取得一些进展，demo成功运行了，之后做一个符合要求的改写就完成了。长文提交了，数学物理推进着学习。史纲小论文一直没有思路，不知道该从何处入手。</p><p>目前感觉，数学物理都学的不大扎实，想法是：增加一遍笔记和notes的温习，然后完成作业后自己写完课后的题目。有时间的话看一看允文的视频吧。</p><h2 id="体育"><a href="#体育" class="headerlink" title="体育"></a>体育</h2><p>排球一传和防守都是真的很差，进攻最近状态也处在比较低迷的时期。有这样的状况很正常，无需紧张着急。但是，接球，进攻时，“随便”的心态万万不可有，坏事，坏事。（真的和某个11号太相似了啊）</p><p>跑步配速还维持在上次进步后的水平，先这样跑着吧，当对体力的一个磨砺了。vertical jump的计划被腰腹，手臂的力量计划取代了，且有打卡，希望自己务必好好坚持，做好每一个动作。</p><p>下周有一个比赛要参加，跟以往不尽相同，这次自己有一些更大的责任在身上，没理由不努力的去接球，去扣球。希望顺利。</p><h2 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h2><p>一份外联，初次独自去碰了一下，感觉不是太困难，但结果来说，还是碰壁了。</p><p>一次访谈，因为和约定好的social时间相撞，需要做更多的后期文字工作，下周要完成。</p><p>一份院内的社工，目前还是被带着在碰的阶段，多观察，多学习。</p><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>最近心里有些乱，很难静下心去做事情。一个原因是最近经历的比较大的情感动荡，很难去走进一个at first look then  got a crush的人，的确是很好的人，即使不能走进，也不会改变这一点。这两天基本平静下来了，珍惜缘分，不做他想，就是极好的事情。另一个原因是最近形势不甚寻常，外在影响到内在的生理心理因素。</p><p>怎么找定力，又是要学的课，尚是小学生啊。 </p><h2 id=""><a href="#" class="headerlink" title=""></a></h2>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;小记,最近十天的学习，工作，以及反思&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="随笔" scheme="http://na-wen.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
   
   <entry>
     <title>输入输出流</title>
