@@ -6,7 +6,7 @@
   <link href="http://na-wen.github.io/atom.xml" rel="self"/>
   
   <link href="http://na-wen.github.io/"/>
-  <updated>2022-05-17T09:03:38.738Z</updated>
+  <updated>2022-05-23T03:16:30.046Z</updated>
   <id>http://na-wen.github.io/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>小记（3）</title>
+    <link href="http://na-wen.github.io/2022/05/23/%E5%B0%8F%E8%AE%B0%EF%BC%883%EF%BC%89/"/>
+    <id>http://na-wen.github.io/2022/05/23/%E5%B0%8F%E8%AE%B0%EF%BC%883%EF%BC%89/</id>
+    <published>2022-05-23T03:02:43.000Z</published>
+    <updated>2022-05-23T03:16:30.046Z</updated>
+    
+    <content type="html"><![CDATA[<p>#一些低落的瞬间</p><span id="more"></span><h2 id="学习"><a href="#学习" class="headerlink" title="学习"></a>学习</h2><p>这周最大的进展，应该就是基本做完了大作业。写文档的时候发现，背后涉及到太多编译，计组的知识，浅近的了解了一点点。其他一切照常。</p><h2 id="physical"><a href="#physical" class="headerlink" title="physical"></a>physical</h2><p>比赛结果并不好，就是“一个很赔钱的队”。个人感觉，没有把队伍带好，自己能力也不够。训练的时候只有200%，比赛才可能有80%。越来越觉得这方面压力很大，甚至有点想逃跑。</p><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>本来觉得自己已经不会再受个人情感上的影响了，但还是，难以抑制的，想接近一点点，想走进看看，想给出去一点能量。我不担心自己的难堪与尴尬，但我担心给对方造成困扰。有缘分但没到，唯一希望之后少见面，不然面对正常生活就觉得索然无聊，后劲太大了。疫情形势不好，如果可以回家的话希望能速速回家。快到期末了，这周要着手开始复习了，一点一点的找锚点吧！</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;#一些低落的瞬间&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="随笔" scheme="http://na-wen.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
   
   <entry>
     <title>pieces in C++</title>
