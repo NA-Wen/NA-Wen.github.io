@@ -152,6 +152,82 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-小记（4）" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2022/06/02/%E5%B0%8F%E8%AE%B0%EF%BC%884%EF%BC%89/">小记（4）</a>
+    </h1>
+  
+
+        
+        <a href="/2022/06/02/%E5%B0%8F%E8%AE%B0%EF%BC%884%EF%BC%89/" class="archive-article-date">
+  	<time datetime="2022-06-02T01:45:50.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-06-02</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>不如早归家</p>
+        
+          <a class="article-more-a" href="/2022/06/02/%E5%B0%8F%E8%AE%B0%EF%BC%884%EF%BC%89/#more">more >></a>
+        
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">随笔</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2022/06/02/%E5%B0%8F%E8%AE%B0%EF%BC%884%EF%BC%89/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-设计模式" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -172,32 +248,10 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="设计模式"><a href="#设计模式" class="headerlink" title="设计模式"></a>设计模式</h1><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>程序设计经验的复用——共同之处</p>
-<p>函数 类 模板 是复用的基本单位；函数是面向过程  类与模板是面向对象</p>
-<p>  四个要素：模式名称、适用的问题、解决方案、效果</p>
-<h3 id="适配器模式"><a href="#适配器模式" class="headerlink" title="适配器模式"></a>适配器模式</h3><p>适用的问题：类之间的接口匹配问题</p>
-<p>解决方案：对象适配器模式 类适配器模式 接口适配器模式</p>
-<img src="C:\Users\Dang_Yufan\AppData\Roaming\Typora\typora-user-images\image-20220524164010899.png" alt="image-20220524164010899" style="zoom:50%;" />
-
-<h3 id="EXP"><a href="#EXP" class="headerlink" title="EXP:"></a><strong>EXP:</strong></h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">甲方</span><br><span class="line">基于堆栈接口，实现了应用程序。</span><br><span class="line">堆栈接口: CP_Stack.h</span><br><span class="line">堆栈应用程序: CP_Stack.cpp</span><br><span class="line">乙方</span><br><span class="line">设计并实现了内存管理类vector&lt;int&gt;。</span><br><span class="line">说明: 这里假设将标准模板库的vector作为乙方的成果。</span><br><span class="line">问题</span><br><span class="line">如何让甲方能够利用乙方的成果尽快让应用程序能够工作?</span><br></pre></td></tr></table></figure>
-
-<p>甲作为一个抽象类</p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//没有成员变量</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">CP_StackInterface</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="keyword">virtual</span> ~<span class="built_in">CP_StackInterface</span>() &#123;&#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">virtual</span> <span class="type">bool</span> <span class="title">mb_isFull</span><span class="params">()</span> </span>= <span class="number">0</span>;</span><br><span class="line">    <span class="function"><span class="keyword">virtual</span> <span class="type">bool</span> <span class="title">mb_isEmpty</span><span class="params">()</span> </span>= <span class="number">0</span>;</span><br><span class="line">    <span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">mb_push</span><span class="params">(<span class="type">int</span> i)</span> </span>= <span class="number">0</span>;</span><br><span class="line">    <span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">mb_pop</span><span class="params">()</span> </span>= <span class="number">0</span>;</span><br><span class="line">    <span class="function"><span class="keyword">virtual</span> <span class="type">int</span> <span class="title">mb_getCapacity</span><span class="params">()</span> </span>= <span class="number">0</span>;</span><br><span class="line">    <span class="function"><span class="keyword">virtual</span> <span class="type">int</span> <span class="title">mb_getSize</span><span class="params">()</span> </span>= <span class="number">0</span>;</span><br><span class="line">    <span class="function"><span class="keyword">virtual</span> <span class="type">int</span> <span class="title">mb_getTop</span><span class="params">()</span> </span>= <span class="number">0</span>;</span><br><span class="line">&#125;; <span class="comment">// 类CP_StackInterface定义结束</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-
-
-<h4 id="1-对象适配器模式："><a href="#1-对象适配器模式：" class="headerlink" title="1.对象适配器模式："></a>1.对象适配器模式：</h4><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> 新类 : <span class="keyword">public</span> 甲方抽象类</span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">    乙方类 m_成员变量;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="built_in">CP_StackByVector</span>(<span class="type">int</span> capacity = <span class="number">10</span>);</span><br><span class="line">    <span class="keyword">virtual</span> ~<span class="built_in">CP_StackByVector</span>() &#123;&#125;</span><br><span class="line">    <span class="function"><span class="keyword">virtual</span> <span class="type">bool</span> <span class="title">mb_isFull</span><span class="params">()</span></span>;</span><br><span class="line">    <span class="function"><span class="keyword">virtual</span> <span class="type">bool</span> <span class="title">mb_isEmpty</span><span class="params">()</span></span>;</span><br><span class="line">    <span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">mb_push</span><span class="params">(<span class="type">int</span> i)</span></span>;</span><br><span class="line">    <span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">mb_pop</span><span class="params">()</span></span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h4 id="2-类适配器模式"><a href="#2-类适配器模式" class="headerlink" title="2.类适配器模式"></a>2.类适配器模式</h4><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> 新类: <span class="keyword">public</span> 甲方抽象类, 乙方类</span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="built_in">CP_StackExtendVector</span>(<span class="type">int</span> capacity=<span class="number">10</span>);</span><br><span class="line">    <span class="keyword">virtual</span> ~<span class="built_in">CP_StackExtendVector</span>() &#123;&#125;</span><br><span class="line">    <span class="function"><span class="keyword">virtual</span> <span class="type">bool</span> <span class="title">mb_isFull</span><span class="params">()</span></span>;</span><br><span class="line">    <span class="function"><span class="keyword">virtual</span> <span class="type">bool</span> <span class="title">mb_isEmpty</span><span class="params">()</span></span>;</span><br><span class="line">    <span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">mb_push</span><span class="params">(<span class="type">int</span> i)</span></span>;</span><br><span class="line">    <span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">mb_pop</span><span class="params">()</span></span>;</span><br><span class="line">&#125;; </span><br></pre></td></tr></table></figure>
-
-<p>改良：只覆盖需要覆盖的抽象类中的函数</p>
-<h3 id="工厂方法模式"><a href="#工厂方法模式" class="headerlink" title="工厂方法模式"></a>工厂方法模式</h3><p>适用问题：适用于为非常复杂的对象创造场景</p>
-<p>解决方案：产品类 产品抽象类以及子类；工厂类，工厂抽象类以及子类</p>
-<p>效果：将产品的创建和使用分开；但是不考虑对象的回收 ，不是很完备，新建一种产品子类就需要新建一种工厂子类</p>
-<p><img src="C:\Users\Dang_Yufan\AppData\Roaming\Typora\typora-user-images\image-20220524174710772.png" alt="image-20220524174710772"></p>
-<img src="C:\Users\Dang_Yufan\AppData\Roaming\Typora\typora-user-images\image-20220524174657070.png" alt="image-20220524174657070" style="zoom:67%;" />
-
-
+        <h1 id="设计模式"><a href="#设计模式" class="headerlink" title="设计模式"></a>设计模式</h1>
+        
+          <a class="article-more-a" href="/2022/06/01/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/#more">more >></a>
+        
       
 
       
@@ -856,80 +910,6 @@
       
         <p class="article-more-link">
           <a class="article-more-a" href="/2022/05/05/binary%20search/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="pages-resources" class="article article-type-pages  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2022/05/01/resources/">resources</a>
-    </h1>
-  
-
-        
-        <a href="/2022/05/01/resources/" class="archive-article-date">
-  	<time datetime="2022-05-01T14:46:39.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-05-01</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>need to add some links</p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">博客</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2022/05/01/resources/">展开全文 >></a>
         </p>
       
 
