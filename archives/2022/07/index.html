@@ -6,19 +6,16 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://NA-Wen.github.io">
-  <title>6.null(1) | NA-Wen&#39;s blogs</title>
+  <title>Archives: 2022/7 | NA-Wen&#39;s blogs</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="暑期记录网课6.null 笔记。道阻且长，行则将至。">
-<meta property="og:type" content="article">
-<meta property="og:title" content="6.null(1)">
-<meta property="og:url" content="http://na-wen.github.io/2022/06/27/6-null-1/index.html">
+  <meta name="description" content="不太懂,很好奇">
+<meta property="og:type" content="website">
+<meta property="og:title" content="NA-Wen&#39;s blogs">
+<meta property="og:url" content="http://na-wen.github.io/archives/2022/07/index.html">
 <meta property="og:site_name" content="NA-Wen&#39;s blogs">
-<meta property="og:description" content="暑期记录网课6.null 笔记。道阻且长，行则将至。">
+<meta property="og:description" content="不太懂,很好奇">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2022-06-27T08:56:22.000Z">
-<meta property="article:modified_time" content="2022-07-09T07:22:56.604Z">
 <meta property="article:author" content="NA-Wen">
-<meta property="article:tag" content="博客">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="NA-Wen&#39;s blogs" type="application/atom+xml">
@@ -153,413 +150,64 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-6-null-1" class="article article-type-post " itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
+            
   
-    <h1 class="article-title" itemprop="name">
-      6.null(1)
-    </h1>
   
-
-        
-        <a href="/2022/06/27/6-null-1/" class="archive-article-date">
-  	<time datetime="2022-06-27T08:56:22.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-06-27</time>
-</a>
-        
-      </header>
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <blockquote>
-<p>暑期记录网课6.null 笔记。道阻且长，行则将至。</p>
-</blockquote>
-<span id="more"></span>
-
-
-<h2 id="虚拟机安装"><a href="#虚拟机安装" class="headerlink" title="虚拟机安装"></a>虚拟机安装</h2><h3 id="1-安装VW-MARE"><a href="#1-安装VW-MARE" class="headerlink" title="1.安装VW_MARE"></a>1.安装VW_MARE</h3><p>官网：<a target="_blank" rel="noopener" href="https://www.vmware.com/cn/products/workstation-pro/workstation-pro-evaluation.html">下载 VMware Workstation Pro | CN</a></p>
-<p>相当于买了一台新的电脑</p>
-<h3 id="2-安装ubuntu"><a href="#2-安装ubuntu" class="headerlink" title="2.安装ubuntu"></a>2.安装ubuntu</h3><p>官网：清华大学luna开源镜像站</p>
-<p>注意：ISO 镜像文件的配置填路径；在安装时有一个选项“清除磁盘内的所有文件”，指清除虚拟机磁盘内的文件，跟本机无关（虚拟机就像一个软件一样）</p>
-<p>相当于给新买的电脑装了操作系统</p>
-<blockquote>
-<p>具体操作配置勾选CSDN上找个教程跟着做就行</p>
-<p>（it is always easy to do with google :)）</p>
-</blockquote>
-<h2 id="shell"><a href="#shell" class="headerlink" title="shell"></a>shell</h2><h3 id="shell是干什么的？"><a href="#shell是干什么的？" class="headerlink" title="shell是干什么的？"></a>shell是干什么的？</h3><p>在最早期，没有图形界面，人与机器直接的交互就是靠命令行；而shell也正是起这样的一个作用，链接用户与操作系统内核。</p>
-<p>shell有一部分内置命令，也有其他应用程序的外部命令。</p>
-<p>shell可以用于编程，是一种解释性语言（script，没有可执行文件）。</p>
-<h3 id="bash的使用"><a href="#bash的使用" class="headerlink" title="bash的使用"></a>bash的使用</h3><p>bash 是linux与mac中最常用的一种shell</p>
-<p>1.空格会分开</p>
-<p>2.变量的定义：不能以数字开头 使用时要加上  dollar</p>
-<p><em>demo1</em></p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_">#</span><span class="language-bash">!/bin/bash</span></span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash">选取所用shell</span></span><br><span class="line">cat /etc/shells</span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash">显示系统中有的脚本解释器</span></span><br><span class="line">MY_NAME=&quot;nawen&quot;</span><br><span class="line">echo $MY_NAME</span><br><span class="line">read -p &quot;PROMAT MESSAGE&quot; MY_NAME</span><br><span class="line">echo $MY_NAME</span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash">将用户的输入读取到变量</span></span><br></pre></td></tr></table></figure>
-
-<p><em>demo2</em></p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">touch hello.sh</span><br><span class="line">vi hello.sh</span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash">create and edit the script</span></span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash"><span class="keyword">then</span> you can write this shell script</span>   </span><br></pre></td></tr></table></figure>
-
-<p><em>another demo2</em></p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cat &gt; hello.sh</span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash">create and edit the script</span> </span><br></pre></td></tr></table></figure>
-
-<p><em>demo 3</em></p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">chmod  755 hello.sh</span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash">修改脚本权限</span></span><br></pre></td></tr></table></figure>
-
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_">#</span><span class="language-bash">需在脚本路径下执行脚本</span></span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash">solution1</span></span><br><span class="line">cd bin/</span><br><span class="line">./hellos.sh</span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash">solution2</span></span><br><span class="line">/root/bin/hello.sh</span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash">solution3</span></span><br><span class="line">.hello.sh</span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash">solution4</span></span><br><span class="line">source hello.sh</span><br><span class="line"></span><br><span class="line">sh hello.sh</span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash"><span class="keyword">else</span></span></span><br><span class="line">bash hello.sh</span><br></pre></td></tr></table></figure>
-
-<p>状态码</p>
-<p>0-255  检查错误0表示正常执行并正确退出</p>
-<p>非0 表示执行过程中出错并没有正常退出</p>
-<p>exit  默认状态码是上一条命令执行的结果 可以通过exit来定义</p>
-<p> todo:测试 具体语法</p>
-<h2 id="data-wrangling"><a href="#data-wrangling" class="headerlink" title="data wrangling"></a>data wrangling</h2><h3 id="grep"><a href="#grep" class="headerlink" title="grep"></a>grep</h3><p>|grep sshd</p>
-<p>只保留含sshd的内容</p>
-<h3 id="sed"><a href="#sed" class="headerlink" title="sed"></a>sed</h3><p>   stream editor   面向行处理的工具  流编辑器</p>
-<p>不对原文件进行改动，把只匹配到模式的内容输入到屏幕上</p>
-<p>命令的语法格式：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">sed [option]  &#x27;command&#x27; filename</span><br><span class="line">#命令格式</span><br><span class="line">sed [option] -f &#x27;sed script &#x27; filename</span><br><span class="line">#脚本格式  </span><br></pre></td></tr></table></figure>
-
-<p>option：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">-e： 直接在命令行模式上进行sed动作编辑，默认选项</span><br><span class="line">-n：只打印模式匹配的行</span><br><span class="line">-f：将sed的动作写在一个文件内，用-f  filename执行filename 内的sed动作</span><br><span class="line">-r：支持扩展表达式</span><br><span class="line">-i：直接修改文件内容</span><br></pre></td></tr></table></figure>
-
-<p><em>demo1</em></p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">#sed用于打印  使用行号进行查询</span><br><span class="line">sed &#x27;2p&#x27; data</span><br><span class="line">#2p:the second line , data : the filename</span><br><span class="line">#other examples </span><br><span class="line">sed -n &#x27;2p&#x27; data</span><br><span class="line"># -n: only print the 2p</span><br><span class="line">sed -n &#x27;1,3p&#x27;  data</span><br><span class="line">sed -n &#x27;/second/p&#x27;  data</span><br><span class="line">#find lines including &#x27;second&#x27; and print it </span><br><span class="line">sed -n &#x27;/second/,4p&#x27; data</span><br><span class="line">#from line including &#x27;second&#x27; to the fourth line</span><br><span class="line">sed -n &#x27;1,4&#123;=;p&#125;&#x27; data</span><br><span class="line">#print the lines together with the number </span><br><span class="line">#&#123;&#125;  command </span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p>demo1是比较简单的对sed命令的应用，从中我们可以看出，使用的要点有两个方面：1.sed命令，例如-n，直接控制sed命令进行输出以及其它操作；2.条件，即与文本的匹配</p>
-<p>因此下方收录正则表达式与sed的关键字表格，和相关样例，共同作为demo2。</p>
-<p><em>demo2</em></p>
-<p>正则表达式</p>
-<table>
-<thead>
-<tr>
-<th>符号</th>
-<th>含义</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>^$</td>
-<td>空白行</td>
-</tr>
-<tr>
-<td>.</td>
-<td>匹配任意单个字符</td>
-</tr>
-<tr>
-<td>*</td>
-<td>匹配紧挨在前面的字符任意次0到多次</td>
-</tr>
-<tr>
-<td>.*</td>
-<td>匹配任意长度的任意字符</td>
-</tr>
-<tr>
-<td>\？</td>
-<td>匹配紧挨在前面的字符0次或1次</td>
-</tr>
-<tr>
-<td>{m,n}</td>
-<td>匹配其前面的字符至少m次，至多n次</td>
-</tr>
-<tr>
-<td>{m,}</td>
-<td>匹配其前面的字符至少m次</td>
-</tr>
-<tr>
-<td>{m}</td>
-<td>精确匹配前面的m次{0,n}:0到n次</td>
-</tr>
-<tr>
-<td>&lt;</td>
-<td>锚点词首—-相当于 \b，用法格式：&lt;pattern</td>
-</tr>
-<tr>
-<td>&gt;</td>
-<td>锚点词尾，用法格式:&gt;pattern</td>
-</tr>
-<tr>
-<td>&lt;pattern&gt;</td>
-<td>单词锚点</td>
-</tr>
-<tr>
-<td></td>
-<td>分组，用法格式：<strong>p</strong>a<strong>t</strong>t<strong>e</strong>r<strong>n，引用\1,\2</strong></td>
-</tr>
-<tr>
-<td>[]</td>
-<td>匹配指定范围内的任意单个字符</td>
-</tr>
-<tr>
-<td>[^]</td>
-<td>匹配指定范围外的任意单个字符</td>
-</tr>
-<tr>
-<td>[:digit:]</td>
-<td>所有数字, 相当于0-9， [0-9]—&gt; [[:digit:]]</td>
-</tr>
-<tr>
-<td>[:lower:]</td>
-<td>所有的小写字母</td>
-</tr>
-<tr>
-<td>[:upper:]</td>
-<td>所有的大写字母</td>
-</tr>
-<tr>
-<td>[:alpha:]</td>
-<td>所有的字母</td>
-</tr>
-<tr>
-<td>[:alnum:]</td>
-<td>相当于0-9a-zA-Z</td>
-</tr>
-<tr>
-<td>[:space:]</td>
-<td>空白字符</td>
-</tr>
-<tr>
-<td>[:punct:]</td>
-<td>所有标点符号</td>
-</tr>
-<tr>
-<td>^</td>
-<td>锚点行首的符合条件的内容，用法格式”^pattern”</td>
-</tr>
-<tr>
-<td>(dollar)</td>
-<td>锚点行首的符合条件的内容，用法格式”pattern$”</td>
-</tr>
-<tr>
-<td>+</td>
-<td>匹配紧挨在前面的字符一次或者多次</td>
-</tr>
-</tbody></table>
-<blockquote>
-<p>注意：* + 在默认情况下会尽可能多的去匹配文本；添加一个？可以使其变为非贪婪模式，但是sed不支持这样的后缀 ，因此切换到perl的命令行模式</p>
-</blockquote>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">perl -pe &#x27;s/.* disconnected from//&#x27;</span><br></pre></td></tr></table></figure>
-
-<p>sed command</p>
-<table>
-<thead>
-<tr>
-<th>command</th>
-<th>用法</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>&#x3D;</td>
-<td>显示文件行号</td>
-</tr>
-<tr>
-<td>a\</td>
-<td>在定位行号后附加新文本信息</td>
-</tr>
-<tr>
-<td>i\</td>
-<td>在定位行号后插入新文本信息</td>
-</tr>
-<tr>
-<td>d</td>
-<td>删除定位行</td>
-</tr>
-<tr>
-<td>c\</td>
-<td>用新文本替换定位文本</td>
-</tr>
-<tr>
-<td>w filename</td>
-<td>写文本到一个文件，类似输出重定向 &gt;</td>
-</tr>
-<tr>
-<td>r filename</td>
-<td>从另一个文件中读文本，类似输入重定向 &lt;</td>
-</tr>
-<tr>
-<td>s</td>
-<td>使用替换模式替换相应模式</td>
-</tr>
-<tr>
-<td>q</td>
-<td>第一个模式匹配完成后退出或立即退出</td>
-</tr>
-<tr>
-<td>l</td>
-<td>显示与八进制ACSII代码等价的控制符</td>
-</tr>
-<tr>
-<td>{}</td>
-<td>在定位行执行的命令组，用分号隔开</td>
-</tr>
-<tr>
-<td>n</td>
-<td>从另一个文件中读文本下一行，<br />并从下一条命令而不是第一条命令开始对其的处理</td>
-</tr>
-<tr>
-<td>N</td>
-<td>在数据流中添加下一行以创建用于处理的多行组</td>
-</tr>
-<tr>
-<td>g</td>
-<td>将模式2粘贴到&#x2F;pattern n&#x2F;</td>
-</tr>
-<tr>
-<td>y</td>
-<td>传送字符，替换单个字符</td>
-</tr>
-<tr>
-<td>p</td>
-<td>打印匹配行（和-n选项一起合用）</td>
-</tr>
-</tbody></table>
-<p>以上两方面可以实现对文件的增删改查，具体例子如下：</p>
-<p>增加</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">sed &#x27;/world/s/^/li/&#x27;</span><br><span class="line">sed &#x27;/world/s/&amp;/li/&#x27;</span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash">匹配到world的行  前、后 添加li</span></span><br><span class="line">sed  &#x27;s/linux/jie &amp;/&#x27;</span><br><span class="line">sed &#x27;s/linux/&amp; jie/&#x27;</span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash">匹配到linux的行，在linux的前后加上jie</span></span><br><span class="line">sed &#x27;/you/s/\(.*\)/\1 li/g&#x27;</span><br><span class="line">sed &#x27;/are/i nihao&#x27;</span><br><span class="line">sed &#x27;/are/a nihao&#x27;</span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash">匹配到are的行 后面添加上行 nihao</span></span><br><span class="line">sed &#x27;/are/a \nihao \n nihao&#x27;</span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash">转义  行 nihao</span></span><br><span class="line">sed -i</span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash">加上-i真正修改文件内容</span></span><br></pre></td></tr></table></figure>
-
-<p>删除</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">sed &#x27;/^#/d&#x27;</span><br><span class="line">sed &#x27;/^#/!d&#x27;</span><br><span class="line">sed &#x27;2,4d&#x27;</span><br><span class="line">sed &#x27;/edn$/d&#x27;</span><br><span class="line">sed &#x27;/i/d&#x27;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p>替换</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">sed -i &#x27;/device/c\ethernet&#x27;</span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash">行替换</span></span><br><span class="line">sed -i &#x27;s/static/dhu/&#x27;</span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash">后换前  /@都是地址界定符</span></span><br><span class="line">sed -i &#x27;/ddd/s@2@1&#x27;</span><br><span class="line">sed -i &#x27;s/dameon/hte/2&#x27;</span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash">只换第二个</span></span><br><span class="line">sed -i &#x27;/root/s/bash/nologin/&#x27;</span><br><span class="line">sed -i &#x27;s/root/(&amp;)/g&#x27;</span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash">加括号 &amp;表示对前面的引用</span></span><br></pre></td></tr></table></figure>
-
-<p>查</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sed -n&#x27;/^#/!p&#x27;</span><br><span class="line">sed -n &#x27;1,/ams/p&#x27;</span><br></pre></td></tr></table></figure>
-
-<p>其他使用</p>
-<p>正在操作的文件写到另一个文件里；将其他文件插入正在操作的文件中</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sed -i &#x27;s/IPADDR/ip/w ip.txt&#x27; test  </span><br><span class="line">sed  -i &#x27;/Ethernet/r myfile&#x27; test  </span><br></pre></td></tr></table></figure>
-
-<p>正则表达式好难写啊，借助一个在线调试工具：regex debugger</p>
-<h3 id="sort-uniq"><a href="#sort-uniq" class="headerlink" title="sort  uniq"></a>sort  uniq</h3><p>sort对输入的数据进行排序  uniq -c会把连续出现的行折叠成一行并把出现次数作为前缀</p>
-<h3 id="awk"><a href="#awk" class="headerlink" title="awk"></a>awk</h3><p>另一种编程语言 非常善于处理文本，其实可以替代上面的所有内容（sed  sort）</p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
+    
       
       
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">博客</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-
-      
-        
-<div class="share-btn share-icons tooltip-left">
-  <div class="tooltip tooltip-east">
-    <span class="tooltip-item">
-      <a href="javascript:;" class="share-sns share-outer">
-        <i class="icon icon-share"></i>
-      </a>
-    </span>
-    <span class="tooltip-content">
-      <div class="share-wrap">
-        <div class="share-icons">
-          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
-            <i class="icon icon-weibo"></i>
-          </a>
-          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
-            <i class="icon icon-weixin"></i>
-          </a>
-          <a class="qq share-sns" href="javascript:;" data-type="qq">
-            <i class="icon icon-qq"></i>
-          </a>
-          <a class="douban share-sns" href="javascript:;" data-type="douban">
-            <i class="icon icon-douban"></i>
-          </a>
-          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
-            <i class="icon icon-qzone"></i>
-          </a>
-          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
-            <i class="icon icon-facebook"></i>
-          </a>
-          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
-            <i class="icon icon-twitter"></i>
-          </a>
-          <a class="google share-sns" href="javascript:;" data-type="google">
-            <i class="icon icon-google"></i>
-          </a>
+      <section class="archives-wrap">
+        <div class="archive-year-wrap">
+          <a href="/archives/2022" class="archive-year">2022</a>
         </div>
-      </div>
-    </span>
-  </div>
-</div>
+        <div class="archives">
+    
+    <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+      	<div class="article-meta">
+	      	<a href="/2022/07/09/%E6%9A%91%E5%9F%B9-Csharp/" class="archive-article-date">
+  	<time datetime="2022-07-09T07:25:15.212Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-07-09</time>
+</a>
+        </div>
+    	 
+        <div class="article-info info-on-right">
+          
+          
 
-<div class="page-modal wx-share js-wx-box">
-    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
-    <p>扫一扫，分享到微信</p>
-    <div class="wx-qrcode">
-      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAACKUlEQVR42u3aS27DMAwFwNz/0ukBgriPpLKQNF4VqWFrvCD4e73i6x1c3+5Pnvn5++sXFwYGxraM5HCT4z6/5fPo3977/OEwMDBuYHx78fOj8zCa3PnM++fMGBgYGI9BcMLO34uBgYExCbgJrJqGYmBgYEwenRSo+edIPsTiWhwDA2NDxiRd+/XfP5lvYGBgbMV4F69J+yxPBMunwsDAOJqRB7hqcy0/YlSgJuMHDAyMQxn5gsX8v/NG3miPAwMDY3PG5MV5s6w3VIjAGBgYFzB6ZWevHE0+RL58tqB6xsDA2JAxHwzMf8l//xpwMTAwDmLk7fjemkVyrLwmXTDIxMDA2JaRH6gXFpe11ZK1DAwMjGsYyREnKeOqtTMMDIzbGJM11urCRN6A66WhGBgYJzGSYJq7e0G2GuKjb4aBgXEQI+9WPZe11aFmzm6mhhgYGEczkhRwsipRXRH7YSaLgYGxCWPizkee+cghD/EYGBj3MHpBcx6sE3bzVBgYGIcy8uRvEqzzcFwtjDEwMO5hrF35mqSPzfYcBgbGBYwkjE7K1Oq6RnmNAwMD41DGu3j1ely9pY1mUoiBgXEcozcGyMvdasKXJJqTViAGBsa+jEmTK2f0wnch4GJgYFzAyAvO6mJENSg3R6QYGBgYLcbaYWfUdMPAwMCIE7jno/QC9D8pJgYGxgWMpIit3rM2HC9rt2FgYGzI6K045E23fOSZh93mIBMDA2M/xh9NoPoIcg/8sQAAAABJRU5ErkJggg==" alt="微信分享二维码">
-    </div>
-</div>
-
-<div class="mask js-mask"></div>
-      
-      <div class="clearfix"></div>
-    </div>
+        </div>
+        <div class="clearfix"></div>
+    </header>
   </div>
 </article>
-
   
-<nav id="article-nav">
-  
-    <a href="/2022/07/09/%E6%9A%91%E5%9F%B9-python/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          (no title)
-        
-      </div>
-    </a>
-  
-  
-    <a href="/2022/06/27/%E4%B8%80%E5%AD%A6%E5%B9%B4%E5%B0%8F%E7%BB%93/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">一学年小结</div>
-      <i class="icon-circle-right"></i>
-    </a>
-  
-</nav>
-
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
+    
+    
+    <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+      	<div class="article-meta">
+	      	<a href="/2022/07/09/%E6%9A%91%E5%9F%B9-python/" class="archive-article-date">
+  	<time datetime="2022-07-09T07:23:35.656Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-07-09</time>
+</a>
         </div>
-        
-        
-    </div>
-</aside>
+    	 
+        <div class="article-info info-on-right">
+          
+          
 
-
-
+        </div>
+        <div class="clearfix"></div>
+    </header>
+  </div>
+</article>
   
   
+    </div></section>
   
 
-  
-
-  
-
-  
+    
 
 
           </div>
@@ -587,8 +235,8 @@
 	var yiliaConfig = {
 		mathjax: true,
 		isHome: false,
-		isPost: true,
-		isArchive: false,
+		isPost: false,
+		isArchive: true,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
