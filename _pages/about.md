@@ -1,6 +1,5 @@
 ---
 permalink: /
-title: "about me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,7 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-## 👋
  - 📕 I'm a undergrad at **Tsinghua university**(2021-2025) , double major in **MPS(math and physics science) & Software**
  - 💻 As a research intern at THUNLP, I'm learning around LLM & agent, and engaged in [ChatDev](https://github.com/OpenBMB/ChatDev) as a main contributor. 
  - 🧀 I have a passion for sharing blog posts on my [website](https://na-wen.github.io/year-archive/), where I discuss the courses I am currently enrolled in and share insights into cutting-edge papers and news.
