@@ -7,18 +7,19 @@ redirect_from:
   - /about.html
 ---
 
-  My name is Yufan Dang(Yesfir). I'm a undergrad at **Tsinghua university**(2021-2025) , double major in **MPS(math and physics science) & Software**. Now as a research intern at THUNLP, I'm learning around LLM & agent, and engaged in [ChatDev](https://github.com/OpenBMB/ChatDev) as a main contributor. Holding a strong conviction that "Exploring the essence of intelligence will broaden the boundaries of cognition and contribute to a better world" I am currently strategizing to commence **a Ph.D. journey specializing in NLP/LLM/ML/DL**. My goal is to advance my academic pursuits, with the anticipated initiation of this endeavor **in the fall of 2025**.
-  
+  My name is Yufan Dang(Yesfir). I'm a undergrad at **Tsinghua university**(2021-2025) , double major in **MPS(math and physics science) & Software**. Now as a research intern at THUNLP, I'm learning around LLM & agent, and engaged in [ChatDev](https://github.com/OpenBMB/ChatDev) as a main contributor. \\
+  Holding a strong conviction that "Exploring the essence of intelligence will broaden the boundaries of cognition and contribute to a better world" I am currently strategizing to commence **a Ph.D. journey specializing in NLP/LLM/ML/DL**. My goal is to advance my academic pursuits, with the anticipated initiation of this endeavor **in the fall of 2025**.
+\\
+Other facts around me:
  - 🧀 I have a passion for sharing blog posts on my [website](https://na-wen.github.io/year-archive/), where I discuss the courses I am currently enrolled in and share insights into cutting-edge papers and news.
  - 🏐 Aside from research and tons of math and physics, I love volleyball / gym workingout / tennis / hiking ......
- - 📧 Reach me : dangyf2003@gmail.com
-  \
+ - 🥳 Reach me : [dangyf2003@gmail.com](mailto:dangyf2003@gmail.com) 
 
-\
-## Publication
-Chen Qian, Xin Cong, Wei Liu, Cheng Yang, Weize Chen, Yusheng Su, **Yufan Dang** , Jiahao Li, Juyuan Xu, Dahai Li, Zhiyuan Liu, Maosong Sun. **Communicative Agents for Software Development**. In arXiv:2307.07924, 2023.
+## 💡 Publication
+### Preprint
+Chen Qian, Xin Cong, Wei Liu, Cheng Yang, Weize Chen, Yusheng Su, **Yufan Dang** , Jiahao Li, Juyuan Xu, Dahai Li, Zhiyuan Liu, Maosong Sun. **Communicative Agents for Software Development**. In [arXiv:2307.07924, 2023](https://arxiv.org/abs/2307.07924).
 
-## RESEARCH EXPERIENCE
+## 🐣 Research Experience
 
 **THUNLP Natural Language Processing Lab at Tsinghua University** Jul 2023 – Present
 
