@@ -12,7 +12,28 @@ redirect_from:
  - 🧀 I have a passion for sharing blog posts on my [website](https://na-wen.github.io/year-archive/), where I discuss the courses I am currently enrolled in and share insights into cutting-edge papers and news.
  - 🏐 Love volleyball / gym workingout / tennis / hiking ......
  - 📧 Reach me : dangyf2003@gmail.com
-Holding a strong conviction that "Exploring the essence of intelligence will broaden the boundaries of cognition and contribute to a better world," I am currently strategizing to commence a Ph.D. journey specializing in NLP/LLM/ML/DL. My goal is to advance my academic pursuits, with the anticipated initiation of this endeavor in the fall of 2025.
+  \
+Holding a strong conviction that "Exploring the essence of intelligence will broaden the boundaries of cognition and contribute to a better world" I am currently strategizing to commence **a Ph.D. journey specializing in NLP/LLM/ML/DL**. My goal is to advance my academic pursuits, with the anticipated initiation of this endeavor **in the fall of 2025**.
+======
+**Publication** 
+Chen Qian, Xin Cong, Wei Liu, Cheng Yang, Weize Chen, Yusheng Su, **Yufan Dang** , Jiahao Li, Juyuan Xu, Dahai Li, Zhiyuan Liu, Maosong Sun. **Communicative Agents for Software Development**. In arXiv:2307.07924, 2023.
+======
+**RESEARCH EXPERIENCE**
 
+**THUNLP Natural Language Processing Lab at Tsinghua University** Jul 2023 – Present
+
+Research Intern
+
+- Participating in the ChatDev project: optimizing dialogue-related mechanisms of the AI, conducting multiple testing, improving the project's frontend, and carrying out daily operational maintenance
+
+- Currently involved in agent-oriented co-evolution research, accumulating experience and facilitating the mutual evolution of capabilities 
+
+**Development and Application of Driving Safety AI Detection System** Nov 2022 – Jun 2023
+
+Student Research Training Program in Autonomous Department, Tsinghua University
+
+- Focus on multimodal perception based on deep learning in self-driving
+- Researched the state-of-the-art single terminal and multimodal perception network and got to know techniques about computer vision
+- Used Pytorch to replicate advanced algorithms in communication-efficient collaborative perception and reproduced consistent experimental results
 
 
