@@ -1,0 +1,181 @@
+---
+title: Basic knowledge of machine learning (2) 
+author : NA-Wen
+date: 2023-07-21 18:20:53
+tags: [traning tricks,neural network]
+category: MLBasic 
+index_img : /img/linearpost.png
+---
+有关神经网络以及训练过程的基础知识。Basic concepts of neural network , and focus more on how the training process.
+<!-- more -->
+# neural network 
+## intro
+although we get inspiration from neural network in biology , besides this , we can still have some insights.
+$$neural \;network:\;s=W_2 max(0,W_1x)$$
+$$linear \;classification:\;s=Wx$$
+## one neuron
+the neuron get some input ,then through a activation function , output
+![](/img/math_neuron.png)
+
+as a linear claasification?
+a neuron can act like a linear classification (softmax or SVM),we just need to design a proper loss function .Regularization can be seen as "forget" : it let all w getting close to 0.
+
+**activation function is important for neuron**
+choosing?
+sigmoid , ReLU , ELU , Leaky ReLU, tanh
+
+## neural network
+> NOTE:命名规则。当我们说N层神经网络的时候，我们没有把输入层算入。因此，单层的神经网络就是没有隐层的（输入直接映射到输出）。因此，有的研究者会说逻辑回归或者SVM只是单层神经网络的一个特例。研究者们也会使用人工神经网络（Artificial Neural Networks 缩写ANN）或者多层感知器（Multi-Layer Perceptrons 缩写MLP）来指代神经网络。很多研究者并不喜欢神经网络算法和人类大脑之间的类比，他们更倾向于用单元（unit）而不是神经元作为术语。
+
+In neural network , each neuron represents a result / temp-result .
+How we design the network?
+One hidden layer  with a proper  activation func can simulate any functon.
+why deeper?
+-> suit the statistical property of large data , and we can easy get the minimal result using SGD
+why many neuraons?
+more neurons help learn better , but lead to overfit , less generalization. We donot decrease the number of neurons , but use some other ways to solve this problem , such as  dropout .
+
+## set network 
+### data preprocess
+the data mat :$X$
+$X.shape=[N\times D]$
+1. mean substraction
+2. mormalization(/mean)
+
+(for pictures usually)
+1. PCA:
+   先对数据进行零中心化处理，即就是减去均值；之后求得数据的协方差矩阵($X^{T}X/X.shape[0]$)
+   之后对协方差矩阵做SVD分解，得到特征向量，装有奇异值的一维数组；再将已经零中心化处理过的数据投影(dot)到特征基准上;此步骤在处理时只取特征向量的前*个
+    实际实现了降维的效果；
+    >np.linalg.svd的一个良好性质是在它的返回值U中，特征向量是按照特征值的大小排列的。我们可以利用这个性质来对数据降维，只要使用前面的小部分特征向量，丢弃掉那些包含的数据没有方差的维度。
+2. whitening
+   白化操作；输入特征基准上的数据之后除以特征值进行归一化
+
+(todo : linear algebra的东西忘得厉害，mark一下，之后有空补一下)
+
+>NOTE:先分成训练/验证/测试集，只是从训练集中求图片平均值，然后各个集（训练/验证/测试集）中的图像再减去这个平均值。
+### weight initialization
+wrong!: set all zero,all symmetric
+small random number is ok
+```python
+W=0.01*np.random.randn(D,H)
+#mean = 0, standard deviation = 1
+```
+but when the input data grows ,the variation of output will related to n(the inout size)
+```python
+w = np.random.randn(n) / sqrt(n)
+```
+sparse initialization: set all zero ,but only link randomly between layers(10 is a typical number of how many neurons are linked to next layer)
+
+bias?  all zero is ok
+
+### regularization
+
+L1L2 has been mentioned in the loss funtion part ,there are also other ways to do regularization.
+
+Max norm constraints:
+给每个神经元中权重向量的量级设定上限，并使用投影梯度下降来确保这一约束。在实践中，与之对应的是参数更新方式不变，然后要求神经元中的权重向量必须满足这一条件，一般值为3或者4。有研究者发文称在使用这种正则化方法时效果更好(即使学习率设置的很高也不会出现数值爆炸的情况)。
+
+dropout：
+弃权；randomly generate a 01 mask for certain weight mat.Then multiply the mat with this generated mask. 
+
+->better 
+inverted dropout:
+```python
+ U1 = (np.random.rand(*H1.shape) < p) / p 
+ # 第一个随机失活遮罩. 注意/p!
+```
+
+#some tricks in training
+训练一个神经网络需要：
+
+## 利用小批量数据对实现进行梯度检查
+还要注意各种错误。
+### 比较解析精度与数值精度
+理论上进行梯度检查只需要比较解析梯度和数值梯度；但是有几个需要注意的点。
+1. 数值梯度的计算需要采用中心化公式，可以减少一个数量级的误差
+ $$\frac{df(x)}{dx}=\frac{f(x+h)-f(x)}{h}; \Delta ~O(h)$$
+ $$\frac{df(x)}{dx}=\frac{f(x+h)-f(x-h)}{2h}; \Delta ~O(h^2)$$
+ 2. 使用相对误差进行比较；
+   $$\frac{|f_{a}^{'}-f_{x}^{'}|}{max(f_{a}^{'},f_{x}^{'})}$$
+   
+相对误差>1e-2：通常就意味着梯度可能出错。
+
+1e-2>相对误差>1e-4：要对这个值感到不舒服才行。
+
+1e-4>相对误差：这个值的相对误差对于有不可导点的目标函数是OK的。但如果目标函数中没有kink（使用tanh和softmax），那么相对误差值还是太高。
+
+1e-7或者更小：好结果，可以高兴一把了。
+
+>NOTE:误差是会随着网络传播与积累的；因此如果对很深层的网络做检查标准可以适当放宽，但是如果只对一个可微函数做检查需要严格
+### 浮点数的范围
+todo： 
+https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html
+
+### 不可导点
+如果用的激活函数里面有不可导点的话，很可能在求解数值精度的时候发生较大的误差，+-h跨过了这个不可导点
+>实际上这种情况很常见。例如，一个用CIFAR-10训练的SVM中，因为有50,000个样本，且根据目标函数每个样本产生9个式子，所以包含有450,000个max(0,x)式子。而一个用SVM进行分类的神经网络因为采用了ReLU，还会有更多的不可导点。
+
+## 进行合理性检查，确认初始损失值是合理的，在小数据集上能得到100%的准确率。
+1. 为确保初始化正确：先把正则化置为0，然后算第一次的loss(中间的权重还没有得到变化因此应该只和初始化值有关)
+>例如，对于一个跑CIFAR-10的Softmax分类器，一般期望它的初始损失值是2.302，这是因为初始时预计每个类别的概率是0.1（因为有10个类别），然后Softmax损失值正确分类的负对数概率：-ln(0.1)=2.302。
+   
+2. 提高正则化强度时损失值会变大
+
+3. 对小数据子集进行过拟合
+   在一个很小的数据集上训练可以达到0的损失值
+## 跟踪损失函数值
+在训练时，跟踪损失函数值，训练集和验证集准确率，如果愿意，还可以跟踪更新的参数量相对于总参数量的比例（一般在1e-3左右），然后如果是对于卷积神经网络，可以将第一层的权重可视化。
+
+![](/img/loss.png)
+损失函数的变化趋势会启示我们学习率设置的是否合适：过低的学习率会使得loss是线性的衰减；过高的要么直接无法衰减，要么先衰减的很快但是之后维持在一个较高的水平不动
+损失函数的噪声会启示我们数据量设置的规模是否合适；右图实际上损失函数的噪声就比较大，batch可能设的有点小
+## optimization方法选择
+推荐的两个更新方法是SGD+Nesterov动量方法，或者Adam方法。
+最最最basic的就是做SGD ，直接用求导的梯度去更新值。
+另一个受物理思想启发，提出了动量的更新方法；
+$$F=- \nabla U=ma$$
+$$a->v;\nabla U->v$$
+$$v->x$$
+可以编码如下：
+```python
+v = mu * v - learning_rate * dx # 与速度融合
+x += v # 与位置融合
+```
+Nesterov动量效果更好，更新的地方在于
+$dx$换成了$d(x+mu** v)$
+
+```python
+x_ahead = x + mu * v
+# 计算dx_ahead(在x_ahead处的梯度，而不是在x处的梯度)
+v = mu * v - learning_rate * dx_ahead
+x += v
+```
+```python
+v_prev = v # 存储备份
+v = mu * v - learning_rate * dx # 速度更新保持不变
+x += -mu * v_prev + (1 + mu) * v # 位置更新变了形式
+```
+
+
+Adam方法:
+todo:
+[Adam](https://arxiv.org/abs/1412.6980)
+```python
+m = beta1*m + (1-beta1)*dx
+v = beta2*v + (1-beta2)*(dx**2)
+x += - learning_rate * m / (np.sqrt(v) + eps)
+```
+
+## 随着训练进行学习率衰减。
+比如，在固定多少个周期后让学习率减半，或者当验证集准确率下降的时候。
+1. 步数衰减：每进行几个周期就根据一些因素降低学习率。典型的值是每过5个周期就将学习率减少一半，或者每20个周期减少到之前的0.1。这些数值的设定是严重依赖具体问题和模型的选择的。在实践中可能看见这么一种经验做法：使用一个固定的学习率来进行训练的同时观察验证集错误率，每当验证集错误率停止下降，就乘以一个常数（比如0.5）来降低学习率。
+2. 指数衰减。数学公式是$$\alpha=\alpha_{0}e^{-kt}$$，其中$\alpha_{0}$是超参数，$t$是迭代次数（也可以使用周期作为单位）。
+3. 1/t衰减的数学公式是$\alpha=\alpha_{0}/(1+kt)$，其中$\alpha$是超参数，$t$是迭代次数。
+
+> 在实践中，我们发现随步数衰减的随机失活（dropout）更受欢迎，因为它使用的超参数（衰减系数和以周期为时间单位的步数）比更有解释性。最后，如果你有足够的计算资源，可以让衰减更加缓慢一些，让训练时间更长些。
+
+## 其他
+使用随机搜索（不要用网格搜索）来搜索最优的超参数。分阶段从粗（比较宽的超参数范围训练1-5个周期）到细（窄范围训练很多个周期）地来搜索。
+
+进行模型集成来获得额外的性能提高。
