@@ -5,12 +5,6 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
-
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+### Preprint
+**Communicative Agents for Software Development**. In [arXiv:2307.07924, 2023](https://arxiv.org/abs/2307.07924).\\
+Chen Qian, Xin Cong, Wei Liu, Cheng Yang, Weize Chen, Yusheng Su, **Yufan Dang** , Jiahao Li, Juyuan Xu, Dahai Li, Zhiyuan Liu, Maosong Sun. 
