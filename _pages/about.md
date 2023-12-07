@@ -13,25 +13,26 @@ redirect_from:
 \\
 \\
 Other facts around me:
- - 🧀 I have a passion for sharing blog posts on my [website](https://na-wen.github.io/year-archive/), where I discuss the courses I am currently enrolled in and share insights into cutting-edge papers and news.
+ - 🧀 I have a passion for sharing _tech blogs_ on my [website](https://na-wen.github.io/year-archive/), where I discuss the courses I am currently enrolled in and share insights into cutting-edge papers and news.
  - 🏐 Aside from research and tons of math and physics, I love volleyball / gym workingout / tennis / hiking ......
  - 🥳 Reach me : [dangyf2003@gmail.com](mailto:dangyf2003@gmail.com) 
-\\
+
+
 ## 💡 Publication
 ### Preprint
 Chen Qian, Xin Cong, Wei Liu, Cheng Yang, Weize Chen, Yusheng Su, **Yufan Dang** , Jiahao Li, Juyuan Xu, Dahai Li, Zhiyuan Liu, Maosong Sun. **Communicative Agents for Software Development**. In [arXiv:2307.07924, 2023](https://arxiv.org/abs/2307.07924).
 
 ## 🐣 Research Experience
 
-**THUNLP Natural Language Processing Lab at Tsinghua University** 
-Research Intern, Jul 2023 – Present
+**THUNLP Natural Language Processing Lab at Tsinghua University** \\
+**Research Intern, Jul 2023 – Present**
 
-- Participating in the ChatDev project: optimizing dialogue-related mechanisms of the AI, conducting multiple testing, improving the project's frontend, and carrying out daily operational maintenance
+- Participating in the [ChatDev](https://github.com/OpenBMB/ChatDev) project: optimizing dialogue-related mechanisms of the AI, conducting multiple testing, improving the project's frontend, and carrying out daily operational maintenance
 
 - Currently involved in agent-oriented co-evolution research, accumulating experience and facilitating the mutual evolution of capabilities 
 
-**Development and Application of Driving Safety AI Detection System** 
-Student Research Training Program in Autonomous Department, Tsinghua University, Nov 2022 – Jun 2023
+**Development and Application of Driving Safety AI Detection System** \\
+**Student Research Training Program in Autonomous Department, Tsinghua University, Nov 2022 – Jun 2023**
 
 - Focus on multimodal perception based on deep learning in self-driving
 - Researched the state-of-the-art single terminal and multimodal perception network and got to know techniques about computer vision
