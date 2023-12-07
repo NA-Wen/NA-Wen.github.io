@@ -1,8 +1,8 @@
 ---
 layout: archive
 title: "CV"
-permalink: /files/CV_en_cn.pdf
+permalink: /cv/
 author_profile: true
 redirect_from:
-  - /resume
+  - "https://NA-Wen.github.io//files//CV_en_cn.pdf"
 ---

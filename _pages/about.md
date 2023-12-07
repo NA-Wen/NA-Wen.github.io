@@ -25,14 +25,14 @@ Chen Qian, Xin Cong, Wei Liu, Cheng Yang, Weize Chen, Yusheng Su, **Yufan Dang**
 ## 🐣 Research Experience
 
 **THUNLP Natural Language Processing Lab at Tsinghua University** \\
-**Research Intern, Jul 2023 – Present**
+Research Intern, Jul 2023 – Present
 
 - Participating in the [ChatDev](https://github.com/OpenBMB/ChatDev) project: optimizing dialogue-related mechanisms of the AI, conducting multiple testing, improving the project's frontend, and carrying out daily operational maintenance
 
 - Currently involved in agent-oriented co-evolution research, accumulating experience and facilitating the mutual evolution of capabilities 
 
 **Development and Application of Driving Safety AI Detection System** \\
-**Student Research Training Program in Autonomous Department, Tsinghua University, Nov 2022 – Jun 2023**
+Student Research Training Program in Autonomous Department, Tsinghua University, Nov 2022 – Jun 2023
 
 - Focus on multimodal perception based on deep learning in self-driving
 - Researched the state-of-the-art single terminal and multimodal perception network and got to know techniques about computer vision
