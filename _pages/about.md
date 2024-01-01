@@ -12,19 +12,20 @@ redirect_from:
   Holding a strong conviction that "Exploring the essence of intelligence will broaden the boundaries of cognition and contribute to a better world" I am currently strategizing to commence **a Ph.D. journey specializing in NLP/LLM/ML/DL**. My goal is to advance my academic pursuits, with the anticipated initiation of this endeavor **in the fall of 2025**.
 \\
 \\
+<small>
 Other facts around me:
  - 🧀 I have a passion for sharing _tech blogs_ on my [website](https://na-wen.github.io/year-archive/), where I discuss the courses I am currently enrolled in and share insights into cutting-edge papers and news.
  - 🏐 Aside from research and tons of math and physics, I love volleyball / gym workingout / tennis / hiking ......
  - 🥳 Reach me : [dangyf2003@gmail.com](mailto:dangyf2003@gmail.com) 
-
+</small>
 ## 🍺 News
 - 2023.12.29 🥳 Our recent work **Experiential Co-Learning of Software-Developing Agents** has released on [arXiv:2307.07924, 2023](https://arxiv.org/abs/2307.07924). 
 
 ## 💡 Publication
 ### Preprint
 **Experiential Co-Learning of Software-Developing Agents**. In [arxiv:2312.17025,2023](https://arxiv.org/abs/2312.17025).\\
-Chen Qian$^{†}$ and **Yufan Dang**$^{†}$ and Jiahao Li and Wei Liu and Weize Chen and Cheng Yang and Zhiyuan Liu and Maosong Sun.
-\
+Chen Qian$^{†}$, **Yufan Dang**$^{†}$, Jiahao Li, Wei Liu, Weize Chen, Cheng Yang, Zhiyuan Liu, Maosong Sun.
+
 
 **Communicative Agents for Software Development**. In [arXiv:2307.07924, 2023](https://arxiv.org/abs/2307.07924).\\
 Chen Qian, Xin Cong, Wei Liu, Cheng Yang, Weize Chen, Yusheng Su, **Yufan Dang** , Jiahao Li, Juyuan Xu, Dahai Li, Zhiyuan Liu, Maosong Sun. 
