@@ -1,11 +1,4 @@
-<article class="post-entry">
-    <header class="entry-header">
-        <h2>Exploration Strategies in Deep Reinforcement Learning
-        </h2>
-    </header>
-    <section class="entry-content">
-        <p></p>
-    </section>
-    <footer class="entry-footer">Date: June 7, 2020 | Estimated Reading Time: 36 min | Author: yufan </footer>
-    <a class="entry-link" aria-label="post link to Exploration Strategies in Deep Reinforcement Learning" href="https://na-wen.github.io/posts/2023/07/blog-post-2/"></a>
-</article>
+--- layout: archive permalink: /year-archive/ title: "Blog posts" author_profile: true redirect_from: - /wordpress/blog-posts/ --- {% include base_path %} {% capture written_year %}'None'{% endcapture %} {% for post in site.posts %} {% capture year %}{{
+post.date | date: '%Y' }}{% endcapture %} {% if year != written_year %}
+<h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
+{% capture written_year %}{{ year }}{% endcapture %} {% endif %} {% include archive-single.html %} {% endfor %}
