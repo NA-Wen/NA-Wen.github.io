@@ -40,7 +40,8 @@ redirect_from:
 
 
 ## 🍺 News
-- 2023.12.29 🥳 Our recent work **Experiential Co-Learning of Software-Developing Agents** has released on [arXiv:2307.07924, 2023](https://arxiv.org/abs/2307.07924). 
+- 2024.1.25  🍺 Code and data around **Experiential Co-Learning of Software-Developing Agents** has released in [ECL](https://github.com/OpenBMB/ChatDev/blob/main/wiki.md#experiential-co-learning-guide). 
+- 2023.12.29  Our recent work **Experiential Co-Learning of Software-Developing Agents** has released on [arXiv:2307.07924, 2023](https://arxiv.org/abs/2307.07924). 
 
 ## 💡 Publication
 ### Preprint
