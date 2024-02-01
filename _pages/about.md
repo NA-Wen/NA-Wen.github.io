@@ -21,19 +21,19 @@ redirect_from:
 **Research Interest:**
   <details>
   <summary>
-  LLM agents 🤖: </summary>
+  LLM agents 🤖 </summary>
     I aim to constructing LLM multi-agent frameworks for effctively and efficiently solving certain tasks(before I focus on software developing, but hold passion to explore more) to fully leverage the ability of LLM.
     </details>
   <details>
   <summary>
-  Information theory/Learning theory 🎨: </summary>
+  Information theory/Learning theory 🎨 </summary>
   The breakthroughs in language models became evident in 2022, overshadowing advancements in vision models.
   These language models excel as sophisticated compressors of linguistic data, adeptly encapsulating and harnessing the latent intelligence embedded within language through their parameters.
     My ambition lies in unraveling the fundamental aspects of language intelligence, primarily through the perspectives of information theory and learning theory, which aims to provide a more holistic understanding of the current capabilities of LLMs.
     </details>
   <details>
   <summary>
-  Additional Interests 💡:</summary>
+  Additional Interests 💡</summary>
   Exploring the realms of Reinforcement Learning, which currently employs agents not specific to language processing, offering a distinct yet intriguing perspective.
      Delving into the Mixture of Experts model, an innovative concept originating from ensemble methods, which primarily captivates and inspires my curiosity...
     </details>
