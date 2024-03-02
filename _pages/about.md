@@ -23,7 +23,7 @@ redirect_from:
   <details>
   <summary>
   LLM agents 🤖 </summary>
-    I aim to constructing LLM multi-agent frameworks for effctively and efficiently solving certain tasks(before I focus on software developing, but hold passion to explore more) to fully leverage the ability of LLM.
+    I aim to constructing LLM-based autonomous agent framework for effctively and efficiently solving multi-step and complex tasks (mainly focus on software developing, but hold passion to explore more) to fully leverage the ability of LLM.
     </details>
   <details>
   <summary>
