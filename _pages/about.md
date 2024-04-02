@@ -12,31 +12,33 @@ redirect_from:
   <!-- Holding a strong conviction that "Exploring the essence of intelligence will broaden the boundaries of cognition and contribute to a better world" I am currently strategizing to commence **a Ph.D. journey specializing in NLP/LLM/ML/DL**. My goal is to advance my academic pursuits, with the anticipated initiation of this endeavor **in the fall of 2025**.\\ -->
   
   I have a passion for sharing _tech blogs_ on my [blog site](https://cuddly-athlete-ff1.notion.site/NA-Wen-s-blog-6efd65e06b934c369ba0f0ad7901c4f8), where I discuss the courses I am currently enrolled in and share insights into cutting-edge papers and news.\\
-\\
 
-  Aside from research and tons of math and physics, I love volleyball / gym workingout / tennis / hiking, and recently I practice tennis nearly every day.
+
+  Aside from research and tons of math and physics, I love volleyball / gym workingout / tennis / hiking. I'm a violin enthusiast, though haven't practiced this for several years.
+
   \\
   Feel free to reach me : [dangyf2003@gmail.com](mailto:dangyf2003@gmail.com). 
 \\
-\\
+
 **Research Interest:**
   <details>
   <summary>
   LLM agents 🤖 </summary>
-    I aim to constructing LLM-based autonomous agent framework for effctively and efficiently solving multi-step and complex tasks (mainly focus on software developing, but hold passion to explore more) to fully leverage the ability of LLM.
+    I aim to constructing LLM-based autonomous agent for effctively and efficiently solving multi-step and complex tasks (previously mainly focus on software developing, now try to explore more) to fully leverage the ability of LLMs.
+    I'm curious about the topic of LLM-based multi-agent: What is the definition of multi-agent? What will happen when more agents involved in one task or conversation or some real-world scenario? What is the lying difference between multi-agent and single agent, more is all you need? We need the strongest agent or more weak agents gathered to reach another stage of LLM agent? How can we leverage the potiential of multi-agent, for simulation, for task-solving, or just for fun?
     </details>
   <details>
   <summary>
   Information theory/Learning theory 🎨 </summary>
-  The breakthroughs in language models became evident in 2022, overshadowing advancements in vision models.
+  The breakthroughs in language models became evident in 2022, overshadowing advancements in computer vision.
   These language models excel as sophisticated compressors of linguistic data, adeptly encapsulating and harnessing the latent intelligence embedded within language through their parameters.
     My ambition lies in unraveling the fundamental aspects of language intelligence, primarily through the perspectives of information theory and learning theory, which aims to provide a more holistic understanding of the current capabilities of LLMs.
+    And I'm devoted to utilize the perspective of information theory to understand the current agent work. It is an interesting topic.
     </details>
   <details>
   <summary>
   Additional Interests 💡</summary>
-  Exploring the realms of Reinforcement Learning, which currently employs agents not specific to language processing, offering a distinct yet intriguing perspective.
-     Delving into the Mixture of Experts model, an innovative concept originating from ensemble methods, which primarily captivates and inspires my curiosity...
+  Reinforcement Learning, Machine Learning...... I'm curious about everything about AI💪.
     </details>
 
 
