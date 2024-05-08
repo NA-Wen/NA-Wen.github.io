@@ -7,14 +7,14 @@ redirect_from:
   - /about.html
 ---
 
-  My name is Yufan Dang(Yesfir). I'm a undergrad at **Tsinghua university**(2021-2025) , double major in **MPS(math and physics science) & Software**. Now as a research intern at THUNLP, I'm learning around LLM & agent, and engaged in [ChatDev](https://github.com/OpenBMB/ChatDev) as a main contributor. 
+  My name is Yufan Dang (党余凡). I'm a undergrad at **Tsinghua university**(2021-2025) , double major in **MPS(math and physics science) & Software**. Now as a research intern at THUNLP, I'm learning around LLM & agent, and engaged in [ChatDev](https://github.com/OpenBMB/ChatDev) as a main contributor. 
 
   <!-- Holding a strong conviction that "Exploring the essence of intelligence will broaden the boundaries of cognition and contribute to a better world" I am currently strategizing to commence **a Ph.D. journey specializing in NLP/LLM/ML/DL**. My goal is to advance my academic pursuits, with the anticipated initiation of this endeavor **in the fall of 2025**.\\ -->
   
   I have a passion for sharing _tech blogs_ on my [blog site](https://cuddly-athlete-ff1.notion.site/NA-Wen-s-blog-6efd65e06b934c369ba0f0ad7901c4f8), where I discuss the courses I am currently enrolled in and share insights into cutting-edge papers and news.
 
 
-  Aside from research and tons of math and physics, I love volleyball / gym workingout / tennis / hiking. I'm a violin enthusiast, though haven't practiced this for several years.
+  Aside from research and tons of math and physics, I love volleyball / gym workingout / tennis / hiking and I'm a violin enthusiast.
 
   
   Feel free to reach me : [dangyf2003@gmail.com](mailto:dangyf2003@gmail.com). 
@@ -35,11 +35,7 @@ redirect_from:
     My ambition lies in unraveling the fundamental aspects of language intelligence, primarily through the perspectives of information theory and learning theory, which aims to provide a more holistic understanding of the current capabilities of LLMs.
     And I'm devoted to utilize the perspective of information theory to understand the current agent work. It is an interesting topic.
     </details>
-  <details>
-  <summary>
-  Additional Interests 💡</summary>
-  Reinforcement Learning, Machine Learning...... I'm curious about everything about AI💪.
-    </details>
+
 
 
 ## 🍺 News
