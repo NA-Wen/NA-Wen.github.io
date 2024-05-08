@@ -12,10 +12,7 @@ redirect_from:
   <!-- Holding a strong conviction that "Exploring the essence of intelligence will broaden the boundaries of cognition and contribute to a better world" I am currently strategizing to commence **a Ph.D. journey specializing in NLP/LLM/ML/DL**. My goal is to advance my academic pursuits, with the anticipated initiation of this endeavor **in the fall of 2025**.\\ -->
   
   I have a passion for sharing _tech blogs_ on my [blog site](https://cuddly-athlete-ff1.notion.site/NA-Wen-s-blog-6efd65e06b934c369ba0f0ad7901c4f8), where I discuss the courses I am currently enrolled in and share insights into cutting-edge papers and news.\\
-
-
   Aside from research and tons of math and physics, I love volleyball / gym workingout / tennis / hiking. I'm a violin enthusiast, though haven't practiced this for several years.
-
   \\
   Feel free to reach me : [dangyf2003@gmail.com](mailto:dangyf2003@gmail.com). 
 \\
@@ -43,14 +40,17 @@ redirect_from:
 
 
 ## 🍺 News
-- 2024.1.25  🍺 Code and data around **Experiential Co-Learning of Software-Developing Agents** has released in [ECL](https://github.com/OpenBMB/ChatDev/blob/main/wiki.md#experiential-co-learning-guide). 
+- 2024.5.6  Following our prior work on ECL, we're excited to announce the publication of our latest endeavor, **Iterative Experience Refinement of Software-Developing Agents**, available on [arXiv:2405.04219, 2024](https://arxiv.org/abs/2405.04219). 
+- 2024.1.25  Code and data around **Experiential Co-Learning of Software-Developing Agents** has released in [ECL](https://github.com/OpenBMB/ChatDev/blob/main/wiki.md#experiential-co-learning-guide). 
 - 2023.12.29  Our recent work **Experiential Co-Learning of Software-Developing Agents** has released on [arXiv:2307.07924, 2023](https://arxiv.org/abs/2307.07924). 
 
 ## 💡 Publication
 ### Preprint
+**Iterative Experience Refinement of Software-Developing Agents**. In [arXiv:2405.04219, 2024](https://arxiv.org/abs/2405.04219). 
+Chen Qian$^{†}$, Jiahao Li$^{†}$, **Yufan Dang**, Wei Liu, YiFei Wang, Zihao Xie, Weize Chen, Cheng Yang, Yingli Zhang, Zhiyuan Liu, Maosong Sun.
+
 **Experiential Co-Learning of Software-Developing Agents**. In [arxiv:2312.17025,2023](https://arxiv.org/abs/2312.17025).\\
 Chen Qian$^{†}$, **Yufan Dang**$^{†}$, Jiahao Li, Wei Liu, Weize Chen, Cheng Yang, Zhiyuan Liu, Maosong Sun.
-
 
 **Communicative Agents for Software Development**. In [arXiv:2307.07924, 2023](https://arxiv.org/abs/2307.07924).\\
 Chen Qian, Xin Cong, Wei Liu, Cheng Yang, Weize Chen, Yusheng Su, **Yufan Dang** , Jiahao Li, Juyuan Xu, Dahai Li, Zhiyuan Liu, Maosong Sun. 
