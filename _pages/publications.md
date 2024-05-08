@@ -13,7 +13,6 @@ Chen Qian$^{†}$, Jiahao Li$^{†}$, **Yufan Dang**, Wei Liu, YiFei Wang, Zihao
 
 **Experiential Co-Learning of Software-Developing Agents**. In [arxiv:2312.17025,2023](https://arxiv.org/abs/2312.17025).\\
 Chen Qian$^{†}$, **Yufan Dang**$^{†}$, Jiahao Li, Wei Liu, Weize Chen, Cheng Yang, Zhiyuan Liu, Maosong Sun
-\\
 
 
 **Communicative Agents for Software Development**. In [arXiv:2307.07924, 2023](https://arxiv.org/abs/2307.07924).\\
