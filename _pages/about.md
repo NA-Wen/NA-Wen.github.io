@@ -11,10 +11,7 @@ redirect_from:
 
   <!-- Holding a strong conviction that "Exploring the essence of intelligence will broaden the boundaries of cognition and contribute to a better world" I am currently strategizing to commence **a Ph.D. journey specializing in NLP/LLM/ML/DL**. My goal is to advance my academic pursuits, with the anticipated initiation of this endeavor **in the fall of 2025**.\\ -->
   
-  I have a passion for sharing _tech blogs_ on my [blog site](https://cuddly-athlete-ff1.notion.site/NA-Wen-s-blog-6efd65e06b934c369ba0f0ad7901c4f8), where I discuss the courses I am currently enrolled in and share insights into cutting-edge papers and news.
-
-
-  Aside from research and tons of math and physics, I love volleyball / gym workingout / tennis / hiking and I'm a violin enthusiast.
+  I have a passion for sharing _tech blogs_ on my [blog site](https://cuddly-athlete-ff1.notion.site/NA-Wen-s-blog-6efd65e06b934c369ba0f0ad7901c4f8), where I discuss the courses I am currently enrolled in and share insights into cutting-edge papers and news.mAside from research and tons of math and physics, I love volleyball / gym workingout / tennis / hiking and I'm a violin enthusiast.
 
   
   Feel free to reach me : [dangyf2003@gmail.com](mailto:dangyf2003@gmail.com). 
