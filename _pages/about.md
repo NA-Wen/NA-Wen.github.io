@@ -24,16 +24,33 @@ redirect_from:
   <details>
   <summary>
   LLM agents 🤖 </summary>
-    I aim to constructing LLM-based autonomous agent for effctively and efficiently solving multi-step and complex tasks (previously mainly focus on software developing, now try to explore more) to fully leverage the ability of LLMs.
-    I'm curious about the topic of LLM-based multi-agent: What is the definition of multi-agent? What will happen when more agents involved in one task or conversation or some real-world scenario? What is the lying difference between multi-agent and single agent, more is all you need? We need the strongest agent or more weak agents gathered to reach another stage of LLM agent? How can we leverage the potiential of multi-agent, for simulation, for task-solving, or just for fun?
+I'm focused on developing LLM-based autonomous agents capable of effectively and efficiently tackling multi-step and complex tasks. Previously, my focus was primarily on software development, but now I'm eager to explore broader applications. Particularly, I'm intrigued by the concept of LLM-based multi-agent systems:
+
+1. **Understanding Multi-Agent Systems:**
+   - **Definition:** Multi-agent systems involve multiple autonomous agents interacting to achieve individual or collective goals. There might be scaling laws or convergence phenomena in multi-agent systems, depending on the specific dynamics and characteristics of the agents involved.
+   
+2. **Leveraging the Potential of Multi-Agent Systems:**
+   - **Choosing Scenarios:** Selecting appropriate scenarios for utilizing multi-agent systems could include simulation environments, software development tasks, or recreational activities.
+   - **Optimizing Organization:** Efficient organization of the multi-agent system involves structuring roles, responsibilities, and interactions to maximize performance.
+   - **Communication Strategies:** Finding optimal communication methods between agents, such as using instructor-assistant paradigms, structured languages like JSON, or developing agents' own communication protocols.
+   - **Enhancing Cooperation:** Improving agents' abilities to cooperate within the multi-agent system through methods like experiential co-learning and fine-tuning model parameters.
+   - **Exploring Agent Societies:** Investigating parallels between multi-agent systems and human societies, and understanding how the process of constructing an agent's world parallels evolutionary processes observed in animals.
+   
+3. **Impact of Multi-Agent Systems on Human Interaction:**
+   - When interacting with humans, multi-agent systems can enhance various aspects of human life, such as:
+     - Facilitating collaborative problem-solving.
+     - Providing personalized assistance and support.
+     - Offering entertainment and enrichment through interactive experiences.
     </details>
   <details>
   <summary>
-  Information theory/Learning theory 🎨 </summary>
-  The breakthroughs in language models became evident in 2022, overshadowing advancements in computer vision.
-  These language models excel as sophisticated compressors of linguistic data, adeptly encapsulating and harnessing the latent intelligence embedded within language through their parameters.
-    My ambition lies in unraveling the fundamental aspects of language intelligence, primarily through the perspectives of information theory and learning theory, which aims to provide a more holistic understanding of the current capabilities of LLMs.
-    And I'm devoted to utilize the perspective of information theory to understand the current agent work. It is an interesting topic.
+**Learning Theory / Reinforcement Learning / Machine Learning 🎨** </summary>
+
+Learning ability stands as the true differentiator between intelligence and any other attribute. There is ample room for exploration in this domain, particularly in:
+
+- **Learning Theory / Machine Learning:** Continuously advancing our understanding of how learning occurs and devising strategies to optimize learning processes.
+- **Reinforcement Learning:** Harnessing the power of reinforcement learning algorithms to enable agents to learn from interactions with their environment and make informed decisions.
+
     </details>
 
 
