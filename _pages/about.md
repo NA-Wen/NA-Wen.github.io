@@ -45,10 +45,10 @@ Learning ability stands as the true differentiator between intelligence and any 
 - [2023.12.29]  Our recent work **Experiential Co-Learning of Software-Developing Agents** has released on [arXiv:2307.07924, 2023](https://arxiv.org/abs/2307.07924). 
 
 ## 💡 Publication
-[Multi-Agent Software Development through Cross-Team Collaboration] In[arXiv 2406.08979](https://arxiv.org/abs/2406.08979).\\
+**Multi-Agent Software Development through Cross-Team Collaboration.** In[arXiv 2406.08979](https://arxiv.org/abs/2406.08979).\\
 Zhuoyun Du, Chen Qian, Wei Liu, Zihao Xie, Yifei Wang, **Yufan Dang**, Weize Chen, Cheng Yang.
 
-[Scaling Large-Language-Model-based Multi-Agent Collaboration]. In [arXiv 2406.07155](https://arxiv.org/abs/2406.07155v1).\\
+**Scaling Large-Language-Model-based Multi-Agent Collaboration.** In [arXiv 2406.07155](https://arxiv.org/abs/2406.07155v1).\\
 Chen Qian$^{†}$, Zihao Xie$^{†}$, Yifei Wang$^{†}$, Wei Liu, **Yufan Dang**, Zhuoyun Du, Weize Chen, Cheng Yang, Zhiyuan Liu, Maosong Sun.
 
 **[Experiential Co-Learning of Software-Developing Agents](https://arxiv.org/abs/2312.17025)**. ACL 2024 main conference.\\
