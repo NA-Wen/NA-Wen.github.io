@@ -17,7 +17,7 @@ redirect_from:
   Feel free to reach me : [dangyf2003@gmail.com](mailto:dangyf2003@gmail.com). 
 
 
-**Research Interest**:
+## Research Interest:
 <div align="center">
 Exploring the essence of intelligence will broaden the boundaries of cognition and contribute to a better world
 </div>
@@ -30,9 +30,6 @@ I'm dedicated to developing LLM-based autonomous agents that can effectively and
   <summary>
   Learning Theory & Reinforcement Learning & Machine Learning 🎨 </summary>
     </details>
-
-
-
 
 ## 🍺 News
 - [2024.6.14] Two papers related with multi-agent collaboration from the pserspective of [intra-team](https://arxiv.org/abs/2406.07155v1) and [cross-team](https://arxiv.org/abs/2406.08979) organization have been released on arXiv first.
