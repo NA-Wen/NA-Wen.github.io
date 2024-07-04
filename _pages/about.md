@@ -31,6 +31,14 @@ I'm dedicated to developing LLM-based autonomous agents that can effectively and
   Learning Theory & Reinforcement Learning & Machine Learning 🎨 </summary>
     </details>
 
+
+
+
+
+
+
+
+
 ## 🍺 News
 - [2024.6.14] Two papers related with multi-agent collaboration from the pserspective of [intra-team](https://arxiv.org/abs/2406.07155v1) and [cross-team](https://arxiv.org/abs/2406.08979) organization have been released on arXiv first.
 - [2024.5.16] Our two papers have been accepted to <font color="RosyBrown">ACL 2024, main conference</font> 🥳. **Thanks to my best mentor and all co-authors!**
