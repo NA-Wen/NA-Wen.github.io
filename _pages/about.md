@@ -41,8 +41,9 @@ Learning ability stands as the true differentiator between intelligence and any 
 
 
 
+
 ## 🍺 News
-- [2024.6.14] Our two papers related with multi-agent collaboration from the pserspective of [intra-team](https://arxiv.org/abs/2406.07155v1) and [cross-team](https://arxiv.org/abs/2406.08979) organization has been released on arXiv first.
+- [2024.6.14] Two papers related with multi-agent collaboration from the pserspective of [intra-team](https://arxiv.org/abs/2406.07155v1) and [cross-team](https://arxiv.org/abs/2406.08979) organization have been released on arXiv first.
 - [2024.5.16] Our two papers have been accepted to <font color="RosyBrown">ACL 2024, main conference</font> 🥳. **Thanks to my best mentor and all co-authors!**
 - [2024.5.6]  Following our prior work on ECL, we're excited to announce the publication of our latest endeavor, **Iterative Experience Refinement of Software-Developing Agents**, available on [arXiv:2405.04219, 2024](https://arxiv.org/abs/2405.04219). 
 - [2024.1.25]  Code and data around **Experiential Co-Learning of Software-Developing Agents** has released in [ECL](https://github.com/OpenBMB/ChatDev/blob/main/wiki.md#experiential-co-learning-guide). 
