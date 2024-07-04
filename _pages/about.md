@@ -17,7 +17,7 @@ redirect_from:
   Feel free to reach me : [dangyf2003@gmail.com](mailto:dangyf2003@gmail.com). 
 
 
-## Research Interest:
+## 🧩 Research Interest:
 <div align="center">
 Exploring the essence of intelligence will broaden the boundaries of cognition and contribute to a better world
 </div>
