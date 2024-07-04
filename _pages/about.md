@@ -18,6 +18,10 @@ redirect_from:
 
 
 **Research Interest**:
+<div align="center">
+Exploring the essence of intelligence will broaden the boundaries of cognition and contribute to a better world
+</div>
+
   <details>
   <summary>
   LLM-powered agent, multi-agent 🤖 </summary>
