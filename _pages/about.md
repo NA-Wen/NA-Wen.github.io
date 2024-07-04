@@ -27,16 +27,8 @@ Exploring the essence of intelligence will broaden the boundaries of cognition a
   LLM-powered agent, multi-agent 🤖 </summary>
 I'm dedicated to developing LLM-based autonomous agents that can effectively and efficiently handle multi-step and complex tasks, particularly those related to software development. Additionally, my research aims to deepen understanding of multi-agent systems and explore how to leverage them more effectively.
   <details>
-
   <summary>
-  
   Learning Theory & Reinforcement Learning & Machine Learning 🎨 </summary>
-Learning ability stands as the true differentiator between intelligence and any other attribute. There is ample room for exploration in this domain, particularly in:
-\\
-- **Learning Theory / Machine Learning**: Continuously advancing our understanding of how learning occurs and devising strategies to optimize learning processes.
-\\
-- **Reinforcement Learning**: Harnessing the power of reinforcement learning algorithms to enable agents to learn from interactions with their environment and make informed decisions.
-\\
     </details>
 
 
