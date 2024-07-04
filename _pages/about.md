@@ -22,22 +22,9 @@ redirect_from:
 Exploring the essence of intelligence will broaden the boundaries of cognition and contribute to a better world
 </div>
 
-  <details>
-  <summary>
-  LLM-powered agent, multi-agent 🤖 </summary>
-I'm dedicated to developing LLM-based autonomous agents that can effectively and efficiently handle multi-step and complex tasks, particularly those related to software development. Additionally, my research aims to deepen understanding of multi-agent systems and explore how to leverage them more effectively.
-  <details>
-  <summary>
-  Learning Theory & Reinforcement Learning & Machine Learning 🎨 </summary>
-    </details>
-
-
-
-
-
-
-
-
+- LLM-powered agent, multi-agent 🤖 
+- Learning Theory & Machine Learning 🎨 
+- Reinforcement Learning
 
 ## 🍺 News
 - [2024.6.14] Two papers related with multi-agent collaboration from the pserspective of [intra-team](https://arxiv.org/abs/2406.07155v1) and [cross-team](https://arxiv.org/abs/2406.08979) organization have been released on arXiv first.
