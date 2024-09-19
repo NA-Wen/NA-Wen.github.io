@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-  My name is Yufan Dang (党余凡). I'm a undergrad at **Tsinghua university**(2021-2025) , double major in **MPS(math and physics science) & Software**. Now as a research intern at THUNLP, I'm learning around LLM & agent, and engaged in [ChatDev](https://github.com/OpenBMB/ChatDev) as a main contributor. 
+  My name is Yufan Dang (党余凡). I'm a undergrad at **Tsinghua university**(2021-2025) , double major in **MPS (math and physics science) & Software Engineering**. Now as a research intern at THUNLP, I'm learning around LLM & agent, and engaged in [ChatDev](https://github.com/OpenBMB/ChatDev) as a main contributor. 
 
   <!-- Holding a strong conviction that "Exploring the essence of intelligence will broaden the boundaries of cognition and contribute to a better world" I am currently strategizing to commence **a Ph.D. journey specializing in NLP/LLM/ML/DL**. My goal is to advance my academic pursuits, with the anticipated initiation of this endeavor **in the fall of 2025**.\\ -->
   
