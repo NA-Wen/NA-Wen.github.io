@@ -4,7 +4,7 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-**Autonomous Agents for Collaborative Task under Information Asymmetry.** In [arXiv 2406.14928](https://arxiv.org/abs/2406.14928).\\
+**[Autonomous Agents for Collaborative Task under Information Asymmetry](https://arxiv.org/abs/2406.14928)**. NeurIPS 2024.\\
 Wei Liu, Chenxi Wang, Yifei Wang, Zihao Xie, Rennai Qiu, **Yufan Dang**, Zhuoyun Du, Weize Chen, Cheng Yang, Chen Qian.
 
 **Multi-Agent Software Development through Cross-Team Collaboration.** In [arXiv 2406.08979](https://arxiv.org/abs/2406.08979).\\
