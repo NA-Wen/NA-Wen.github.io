@@ -35,7 +35,7 @@ Exploring the essence of intelligence contributes to a better world!
 - [2023.12.29]  Our recent work **Experiential Co-Learning of Software-Developing Agents** has released on [arXiv:2307.07924, 2023](https://arxiv.org/abs/2307.07924). 
 
 ## 💡 Publication
-**Autonomous Agents for Collaborative Task under Information Asymmetry.** In [arXiv 2406.14928](https://arxiv.org/abs/2406.14928).\\
+**[Autonomous Agents for Collaborative Task under Information Asymmetry](https://arxiv.org/abs/2406.14928)**. NeurIPS 2024.\\
 Wei Liu, Chenxi Wang, Yifei Wang, Zihao Xie, Rennai Qiu, **Yufan Dang**, Zhuoyun Du, Weize Chen, Cheng Yang, Chen Qian.
 
 **Multi-Agent Software Development through Cross-Team Collaboration.** In [arXiv 2406.08979](https://arxiv.org/abs/2406.08979).\\
