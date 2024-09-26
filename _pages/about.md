@@ -26,8 +26,8 @@ Exploring the essence of intelligence contributes to a better world!
 - Learning Theory & Machine Learning 🎨 & Reinforcement Learning
 
 ## 🍺 News
-- [2024.9.26] Our team's work around LLM Agent under information asymmetry ["**Autonomous Agents for Collaborative Task under Information Asymmetry**"](https://arxiv.org/abs/2406.14928) is accepted by NeurIPS. 
-- [2024.8.11-2024.8.16] Our team attended ACL 2024 in Bangkok, amazing experience.
+- [2024.9.26] Our team's work around LLM Agent under information asymmetry is accepted by NeurIPS. Congrats 🥳!
+- [2024.8.11-2024.8.16] Our team attended ACL 2024 in Bangkok, amazing experience 😃.
 - [2024.6.14] Two papers related with multi-agent collaboration from the pserspective of [intra-team](https://arxiv.org/abs/2406.07155v1) and [cross-team](https://arxiv.org/abs/2406.08979) organization have been released on arXiv first.
 - [2024.5.16] Our two papers have been accepted to <font color="RosyBrown">ACL 2024, main conference</font> 🥳. **Thanks to my best mentor and all co-authors!**
 - [2024.5.6]  Following our prior work on ECL, we're excited to announce the publication of our latest endeavor, **Iterative Experience Refinement of Software-Developing Agents**, available on [arXiv:2405.04219, 2024](https://arxiv.org/abs/2405.04219). 
