@@ -7,7 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-  My name is Yufan Dang (党余凡). I'm a undergrad at **Tsinghua university**(2021-2025) , double major in **MPS (math and physics science) & Software Engineering**. Now as a research intern at THUNLP, I'm learning around LLM & agent, and engaged in [ChatDev](https://github.com/OpenBMB/ChatDev) as a main contributor. 
+  My name is Yufan Dang (党余凡). I'm a undergrad at **Tsinghua university**(2021-2025) , double major in **MPS (math and physics science) & Software Engineering**. And I will continue pursuing a master's degree in AI at Tsinghua University's Department of Computer Science in 2025.
+  Now as a research intern at THUNLP, I'm learning around LLM & agent, and engaged in [ChatDev](https://github.com/OpenBMB/ChatDev) as a main contributor. 
 
   <!-- Holding a strong conviction that "Exploring the essence of intelligence will broaden the boundaries of cognition and contribute to a better world" I am currently strategizing to commence **a Ph.D. journey specializing in NLP/LLM/ML/DL**. My goal is to advance my academic pursuits, with the anticipated initiation of this endeavor **in the fall of 2025**.\\ -->
   
@@ -28,7 +29,7 @@ Exploring the essence of intelligence contributes to a better world!
 ## 🍺 News
 - [2024.9.26] Our team's work around LLM Agent under information asymmetry is accepted by NeurIPS. Congrats 🥳!
 - [2024.8.11-2024.8.16] Our team attended ACL 2024 in Bangkok, amazing experience 😃.
-- [2024.6.14] Two papers related with multi-agent collaboration from the pserspective of [intra-team](https://arxiv.org/abs/2406.07155v1) and [cross-team](https://arxiv.org/abs/2406.08979) organization have been released on arXiv first.
+- [2024.6.14] Two papers related with multi-agent collaboration from the perspective of [intra-team](https://arxiv.org/abs/2406.07155v1) and [cross-team](https://arxiv.org/abs/2406.08979) organization have been released on arXiv first.
 - [2024.5.16] Our two papers have been accepted to <font color="RosyBrown">ACL 2024, main conference</font> 🥳. **Thanks to my best mentor and all co-authors!**
 - [2024.5.6]  Following our prior work on ECL, we're excited to announce the publication of our latest endeavor, **Iterative Experience Refinement of Software-Developing Agents**, available on [arXiv:2405.04219, 2024](https://arxiv.org/abs/2405.04219). 
 - [2024.1.25]  Code and data around **Experiential Co-Learning of Software-Developing Agents** has released in [ECL](https://github.com/OpenBMB/ChatDev/blob/main/wiki.md#experiential-co-learning-guide). 
