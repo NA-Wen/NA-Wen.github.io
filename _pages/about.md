@@ -27,7 +27,8 @@ Exploring the essence of intelligence contributes to a better world!
 - Learning Theory & Machine Learning 🎨 & Reinforcement Learning
 
 ## 🍺 News
-- [2024.9.26] Our team's work around LLM Agent under information asymmetry is accepted by NeurIPS. Congrats 🥳!
+- [2025.1.23] Our team's work around "Scaling LLM agent collaboration" is accepted by ICLR 2025.
+- [2024.9.26] Our team's work around LLM Agent under information asymmetry is accepted by NeurIPS 2024. Congrats 🥳!
 - [2024.8.11-2024.8.16] Our team attended ACL 2024 in Bangkok, amazing experience 😃.
 - [2024.6.14] Two papers related with multi-agent collaboration from the perspective of [intra-team](https://arxiv.org/abs/2406.07155v1) and [cross-team](https://arxiv.org/abs/2406.08979) organization have been released on arXiv first.
 - [2024.5.16] Our two papers have been accepted to <font color="RosyBrown">ACL 2024, main conference</font> 🥳. **Thanks to my best mentor and all co-authors!**
@@ -39,7 +40,7 @@ Exploring the essence of intelligence contributes to a better world!
 **[Autonomous Agents for Collaborative Task under Information Asymmetry](https://arxiv.org/abs/2406.14928)**. NeurIPS 2024.\\
 Wei Liu, Chenxi Wang, Yifei Wang, Zihao Xie, Rennai Qiu, **Yufan Dang**, Zhuoyun Du, Weize Chen, Cheng Yang, Chen Qian.
 
-**Multi-Agent Software Development through Cross-Team Collaboration.** In [arXiv 2406.08979](https://arxiv.org/abs/2406.08979).\\
+**[Multi-Agent Software Development through Cross-Team Collaboration.](https://arxiv.org/abs/2406.08979)**. ICLR 2025.\\
 Zhuoyun Du, Chen Qian, Wei Liu, Zihao Xie, Yifei Wang, **Yufan Dang**, Weize Chen, Cheng Yang.
 
 **Scaling Large-Language-Model-based Multi-Agent Collaboration.** In [arXiv 2406.07155](https://arxiv.org/abs/2406.07155v1).\\
