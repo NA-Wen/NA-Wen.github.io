@@ -37,14 +37,16 @@ Exploring the essence of intelligence contributes to a better world!
 - [2023.12.29]  Our recent work **Experiential Co-Learning of Software-Developing Agents** has released on [arXiv:2307.07924, 2023](https://arxiv.org/abs/2307.07924). 
 
 ## 💡 Publication
+**[Scaling Large-Language-Model-based Multi-Agent Collaboration.](https://arxiv.org/abs/2406.07155v1)**. ICLR 2025.\\
+Chen Qian$^{†}$, Zihao Xie$^{†}$, Yifei Wang$^{†}$, Wei Liu, **Yufan Dang**, Zhuoyun Du, Weize Chen, Cheng Yang, Zhiyuan Liu, Maosong Sun.
+
+
 **[Autonomous Agents for Collaborative Task under Information Asymmetry](https://arxiv.org/abs/2406.14928)**. NeurIPS 2024.\\
 Wei Liu, Chenxi Wang, Yifei Wang, Zihao Xie, Rennai Qiu, **Yufan Dang**, Zhuoyun Du, Weize Chen, Cheng Yang, Chen Qian.
 
-**[Multi-Agent Software Development through Cross-Team Collaboration.](https://arxiv.org/abs/2406.08979)**. ICLR 2025.\\
+**[Multi-Agent Software Development through Cross-Team Collaboration.](https://arxiv.org/abs/2406.08979)**.\\
 Zhuoyun Du, Chen Qian, Wei Liu, Zihao Xie, Yifei Wang, **Yufan Dang**, Weize Chen, Cheng Yang.
 
-**Scaling Large-Language-Model-based Multi-Agent Collaboration.** In [arXiv 2406.07155](https://arxiv.org/abs/2406.07155v1).\\
-Chen Qian$^{†}$, Zihao Xie$^{†}$, Yifei Wang$^{†}$, Wei Liu, **Yufan Dang**, Zhuoyun Du, Weize Chen, Cheng Yang, Zhiyuan Liu, Maosong Sun.
 
 **[Experiential Co-Learning of Software-Developing Agents](https://arxiv.org/abs/2312.17025)**. ACL 2024 main conference.\\
 Chen Qian$^{†}$, **Yufan Dang**$^{†}$, Jiahao Li, Wei Liu, Weize Chen, Cheng Yang, Zhiyuan Liu, Maosong Sun.
@@ -52,7 +54,7 @@ Chen Qian$^{†}$, **Yufan Dang**$^{†}$, Jiahao Li, Wei Liu, Weize Chen, Cheng
 **[Communicative Agents for Software Development](https://arxiv.org/abs/2307.07924)**. ACL 2024 main conference.\\
 Chen Qian, Xin Cong, Wei Liu, Cheng Yang, Weize Chen, Yusheng Su, **Yufan Dang** , Jiahao Li, Juyuan Xu, Dahai Li, Zhiyuan Liu, Maosong Sun.
 
-**Iterative Experience Refinement of Software-Developing Agents**. In [arXiv:2405.04219, 2024](https://arxiv.org/abs/2405.04219).\\
+**[Iterative Experience Refinement of Software-Developing Agents](https://arxiv.org/abs/2405.04219)**.\\
 Chen Qian$^{†}$, Jiahao Li$^{†}$, **Yufan Dang**, Wei Liu, YiFei Wang, Zihao Xie, Weize Chen, Cheng Yang, Yingli Zhang, Zhiyuan Liu, Maosong Sun.
 
 $^{†}$: Equal Contribution
@@ -72,5 +74,3 @@ Student Research Training Program in Autonomous Department, Tsinghua University,
 - Focus on multimodal perception based on deep learning in self-driving
 - Researched the state-of-the-art single terminal and multimodal perception network and got to know techniques about computer vision
 - Used Pytorch to replicate advanced algorithms in communication-efficient collaborative perception and reproduced consistent experimental results
-
-
