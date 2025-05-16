@@ -27,6 +27,7 @@ Exploring the essence of intelligence contributes to a better world!
 - Learning Theory & Machine Learning 🎨 & Reinforcement Learning
 
 ## 🍺 News
+- [2025.5.15] Our team's work about "Multi Agent Cross-Team Collaboration" is accepted by ACL 2025 Findings.
 - [2025.1.23] Our team's work around "Scaling LLM agent collaboration" is accepted by ICLR 2025.
 - [2024.9.26] Our team's work around LLM Agent under information asymmetry is accepted by NeurIPS 2024. Congrats 🥳!
 - [2024.8.11-2024.8.16] Our team attended ACL 2024 in Bangkok, amazing experience 😃.
@@ -44,7 +45,7 @@ Chen Qian$^{†}$, Zihao Xie$^{†}$, Yifei Wang$^{†}$, Wei Liu, **Yufan Dang*
 **[Autonomous Agents for Collaborative Task under Information Asymmetry](https://arxiv.org/abs/2406.14928)**. NeurIPS 2024.\\
 Wei Liu, Chenxi Wang, Yifei Wang, Zihao Xie, Rennai Qiu, **Yufan Dang**, Zhuoyun Du, Weize Chen, Cheng Yang, Chen Qian.
 
-**[Multi-Agent Software Development through Cross-Team Collaboration.](https://arxiv.org/abs/2406.08979)**.\\
+**[Multi-Agent Software Development through Cross-Team Collaboration.](https://arxiv.org/abs/2406.08979)**. ACL 2025 Findings.\\
 Zhuoyun Du, Chen Qian, Wei Liu, Zihao Xie, Yifei Wang, **Yufan Dang**, Weize Chen, Cheng Yang.
 
 
