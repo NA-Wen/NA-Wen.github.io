@@ -4,6 +4,10 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+**[Multi-Agent Collaboration via Evolving Orchestration](https://arxiv.org/abs/2505.19591)**.\\
+**Yufan Dang**$^{†}$, Chen Qian$^{†}$, Xueheng Luo, Jingru Fan, Zihao Xie, Ruijie Shi, Weize Chen, Cheng Yang, Xiaoyin Che, Ye Tian, Xuantang Xiong, Lei Han, Zhiyuan Liu, Maosong Sun.
+
+
 **[Scaling Large-Language-Model-based Multi-Agent Collaboration.](https://arxiv.org/abs/2406.07155v1)**. ICLR 2025.\\
 Chen Qian$^{†}$, Zihao Xie$^{†}$, Yifei Wang$^{†}$, Wei Liu, **Yufan Dang**, Zhuoyun Du, Weize Chen, Cheng Yang, Zhiyuan Liu, Maosong Sun.
 

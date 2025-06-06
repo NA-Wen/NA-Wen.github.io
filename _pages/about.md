@@ -27,6 +27,7 @@ Exploring the essence of intelligence contributes to a better world!
 - Learning Theory & Machine Learning 🎨 & Reinforcement Learning
 
 ## 🍺 News
+- [2025.5.26] Our paper on evolving orchestration through reinforcement learning in multi-agent systems has been released on [arXiv](https://arxiv.org/abs/2505.19591).
 - [2025.5.15] Our team's work about "Multi Agent Cross-Team Collaboration" is accepted by ACL 2025 Findings.
 - [2025.1.23] Our team's work around "Scaling LLM agent collaboration" is accepted by ICLR 2025.
 - [2024.9.26] Our team's work around LLM Agent under information asymmetry is accepted by NeurIPS 2024. Congrats 🥳!
@@ -38,6 +39,9 @@ Exploring the essence of intelligence contributes to a better world!
 - [2023.12.29]  Our recent work **Experiential Co-Learning of Software-Developing Agents** has released on [arXiv:2307.07924, 2023](https://arxiv.org/abs/2307.07924). 
 
 ## 💡 Publication
+**[Multi-Agent Collaboration via Evolving Orchestration](https://arxiv.org/abs/2505.19591)**.\\
+**Yufan Dang**$^{†}$, Chen Qian$^{†}$, Xueheng Luo, Jingru Fan, Zihao Xie, Ruijie Shi, Weize Chen, Cheng Yang, Xiaoyin Che, Ye Tian, Xuantang Xiong, Lei Han, Zhiyuan Liu, Maosong Sun.
+
 **[Scaling Large-Language-Model-based Multi-Agent Collaboration.](https://arxiv.org/abs/2406.07155v1)**. ICLR 2025.\\
 Chen Qian$^{†}$, Zihao Xie$^{†}$, Yifei Wang$^{†}$, Wei Liu, **Yufan Dang**, Zhuoyun Du, Weize Chen, Cheng Yang, Zhiyuan Liu, Maosong Sun.
 
