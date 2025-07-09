@@ -7,26 +7,27 @@ redirect_from:
   - /about.html
 ---
 
-  My name is Yufan Dang (党余凡). I'm a undergrad at **Tsinghua university**(2021-2025) , double major in **MPS (math and physics science) & Software Engineering**. And I will continue pursuing a master's degree at Tsinghua University's Department of Computer Science in 2025.
-  Now as a research intern at THUNLP, I'm learning around LLM & agent, and engaged in [ChatDev](https://github.com/OpenBMB/ChatDev) as a main contributor. 
+  My name is Yufan Dang (党余凡). I’m a coming master’s student at the Department of Computer Science, Tsinghua University (2025-2028), supervised by Zhiyuan Liu. I previously completed my undergraduate studies in Tsinghua University, with a double major in Mathematical & Physical Sciences (MPS) and Software Engineering.
+  I'm learning around LLM agent and multi agent, and engaged in [ChatDev](https://github.com/OpenBMB/ChatDev) as a main contributor. 
 
   <!-- Holding a strong conviction that "Exploring the essence of intelligence will broaden the boundaries of cognition and contribute to a better world" I am currently strategizing to commence **a Ph.D. journey specializing in NLP/LLM/ML/DL**. My goal is to advance my academic pursuits, with the anticipated initiation of this endeavor **in the fall of 2025**.\\ -->
   
   I have a passion for sharing _tech blogs_ on my [blog site](https://cuddly-athlete-ff1.notion.site/NA-Wen-s-blog-6efd65e06b934c369ba0f0ad7901c4f8), where I discuss the courses I am currently enrolled in and share insights into cutting-edge papers and news. Aside from research and tons of math and physics, I love volleyball 🏐/ gym workingout 🏋️‍♀️/ tennis 🎾/ hiking 🏞️ and I'm a violin enthusiast.
 
   
-  Feel free to reach me : [dangyf2003@gmail.com](mailto:dangyf2003@gmail.com). 
-
+  Feel free to reach me : [dangyf2003@gmail.com](mailto:dangyf2003@gmail.com). I’m currently in Shanghai (from July 10 to around August 20, 2025), and always happy to chat over coffee — just drop me a message!
 
 ## 🧩 Research Interest:
 <div align="center">
 Exploring the essence of intelligence contributes to a better world!
 </div>
 
-- LLM-powered agent, multi-agent 🤖, LLM reasoning and planning
-- Learning Theory & Machine Learning 🎨 & Reinforcement Learning
+- LLM-powered agent, multi agent
+- LLM reasoning, planning
+- Learning Theory & Machine Learning & Reinforcement Learning
 
 ## 🍺 News
+- [2025.6] I received my bachelor’s degree from Tsinghua University, majoring in Mathematical & Physical Sciences (MPS) and Software Engineering. 
 - [2025.5.26] Our paper on evolving orchestration through reinforcement learning in multi-agent systems has been released on [arXiv](https://arxiv.org/abs/2505.19591).
 - [2025.5.15] Our team's work about "Multi Agent Cross-Team Collaboration" is accepted by ACL 2025 Findings.
 - [2025.1.23] Our team's work around "Scaling LLM agent collaboration" is accepted by ICLR 2025.
@@ -63,19 +64,3 @@ Chen Qian, Xin Cong, Wei Liu, Cheng Yang, Weize Chen, Yusheng Su, **Yufan Dang**
 Chen Qian$^{†}$, Jiahao Li$^{†}$, **Yufan Dang**, Wei Liu, YiFei Wang, Zihao Xie, Weize Chen, Cheng Yang, Yingli Zhang, Zhiyuan Liu, Maosong Sun.
 
 $^{†}$: Equal Contribution
-
-## 🐣 Research Experience
-
-**THUNLP Natural Language Processing Lab at Tsinghua University** \\
-Research Intern, Jul 2023 – Present
-
-- Participating in the [ChatDev](https://github.com/OpenBMB/ChatDev) project: optimizing dialogue-related mechanisms of the AI, conducting multiple testing, improving the project's frontend, and carrying out daily operational maintenance
-
-- Currently involved in agent-oriented co-evolution research, accumulating experience and facilitating the mutual evolution of capabilities 
-
-**Development and Application of Driving Safety AI Detection System** \\
-Student Research Training Program in Autonomous Department, Tsinghua University, Nov 2022 – Jun 2023
-
-- Focus on multimodal perception based on deep learning in self-driving
-- Researched the state-of-the-art single terminal and multimodal perception network and got to know techniques about computer vision
-- Used Pytorch to replicate advanced algorithms in communication-efficient collaborative perception and reproduced consistent experimental results
