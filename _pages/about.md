@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-  My name is Yufan Dang (党余凡). I’m a coming master’s student at the Department of Computer Science, Tsinghua University (2025-2028), supervised by Zhiyuan Liu. I previously completed my undergraduate studies in Tsinghua University, with a double major in Mathematical & Physical Sciences (MPS) and Software Engineering.
+  My name is Yufan Dang (党余凡). I’m a master student at the Department of Computer Science, Tsinghua University (2025-2028), supervised by Zhiyuan Liu. I previously completed my undergraduate studies in Tsinghua University, with a double major in Mathematical & Physical Sciences (MPS) and Software Engineering.
   I'm learning around LLM agent and multi agent, and engaged in [ChatDev](https://github.com/OpenBMB/ChatDev) as a main contributor. 
 
   <!-- Holding a strong conviction that "Exploring the essence of intelligence will broaden the boundaries of cognition and contribute to a better world" I am currently strategizing to commence **a Ph.D. journey specializing in NLP/LLM/ML/DL**. My goal is to advance my academic pursuits, with the anticipated initiation of this endeavor **in the fall of 2025**.\\ -->
