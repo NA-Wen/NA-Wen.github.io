@@ -28,6 +28,7 @@ Exploring the essence of intelligence contributes to a better world!
 - Learning Theory & Machine Learning & Reinforcement Learning
 
 ## 🍺 News
+- [2025.9.3] Our technical report about GUI Agent is released on [arXiv](https://arxiv.org/pdf/2509.02444).
 - [2025.6] I received my bachelor’s degree from Tsinghua University, majoring in Mathematical & Physical Sciences (MPS) and Software Engineering. 
 - [2025.5.26] Our paper on evolving orchestration through reinforcement learning in multi-agent systems has been released on [arXiv](https://arxiv.org/abs/2505.19591).
 - [2025.5.15] Our team's work about "Multi Agent Cross-Team Collaboration" is accepted by ACL 2025 Findings.
@@ -41,6 +42,9 @@ Exploring the essence of intelligence contributes to a better world!
 - [2023.12.29]  Our recent work **Experiential Co-Learning of Software-Developing Agents** has released on [arXiv:2307.07924, 2023](https://arxiv.org/abs/2307.07924). 
 
 ## 💡 Publication
+**[AppCopilot: Toward General, Accurate,Long-Horizon, and Effcient Mobile Agent](https://arxiv.org/pdf/2509.02444)**\\
+Jingru Fan$^{†}$, **Yufan Dang**$^{†}$, Jingyao Wu, Huatao Li, Runde Yang, Xiyuan Yang, Yuheng Wang, ZhongZhang, Yaxi Lu, Yankai Lin, Zhiyuan Liu, Dahai Li, Chen Qian.
+
 **[Multi-Agent Collaboration via Evolving Orchestration](https://arxiv.org/abs/2505.19591)**.\\
 **Yufan Dang**$^{†}$, Chen Qian$^{†}$, Xueheng Luo, Jingru Fan, Zihao Xie, Ruijie Shi, Weize Chen, Cheng Yang, Xiaoyin Che, Ye Tian, Xuantang Xiong, Lei Han, Zhiyuan Liu, Maosong Sun.
 

@@ -4,6 +4,10 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+**[AppCopilot: Toward General, Accurate,Long-Horizon, and Effcient Mobile Agent](https://arxiv.org/pdf/2509.02444)**\\
+Jingru Fan$^{†}$, **Yufan Dang**$^{†}$, Jingyao Wu, Huatao Li, Runde Yang, Xiyuan Yang, Yuheng Wang, ZhongZhang, Yaxi Lu, Yankai Lin, Zhiyuan Liu, Dahai Li, Chen Qian.
+
+
 **[Multi-Agent Collaboration via Evolving Orchestration](https://arxiv.org/abs/2505.19591)**.\\
 **Yufan Dang**$^{†}$, Chen Qian$^{†}$, Xueheng Luo, Jingru Fan, Zihao Xie, Ruijie Shi, Weize Chen, Cheng Yang, Xiaoyin Che, Ye Tian, Xuantang Xiong, Lei Han, Zhiyuan Liu, Maosong Sun.
 
