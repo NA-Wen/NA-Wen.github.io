@@ -12,7 +12,7 @@ redirect_from:
 
   <!-- Holding a strong conviction that "Exploring the essence of intelligence will broaden the boundaries of cognition and contribute to a better world" I am currently strategizing to commence **a Ph.D. journey specializing in NLP/LLM/ML/DL**. My goal is to advance my academic pursuits, with the anticipated initiation of this endeavor **in the fall of 2025**.\\ -->
   
-  I have a passion for sharing _tech blogs_ on my [blog site](https://cuddly-athlete-ff1.notion.site/NA-Wen-s-blog-6efd65e06b934c369ba0f0ad7901c4f8), where I discuss the courses I am currently enrolled in and share insights into cutting-edge papers and news. Aside from research and tons of math and physics, I love volleyball 🏐/ gym workingout 🏋️‍♀️/ tennis 🎾/ hiking 🏞️ and I'm a violin enthusiast.
+  I have a passion for sharing _tech blogs_ on my [blog site](https://cuddly-athlete-ff1.notion.site/NA-Wen-s-blog-6efd65e06b934c369ba0f0ad7901c4f8), where I discuss the courses I am currently enrolled in and share insights into cutting-edge papers and news. Aside from research and tons of math and physics, I love volleyball 🏐/ gym workingout 🏋️‍♀️/ tennis 🎾/ hiking 🏞️ and I'm a violin enthusiast. 
 
   
   Feel free to reach me : [dangyf2003@gmail.com](mailto:dangyf2003@gmail.com). 
@@ -28,6 +28,7 @@ Exploring the essence of intelligence contributes to a better world!
 - Learning Theory & Machine Learning & Reinforcement Learning
 
 ## 🍺 News
+- [2025.9.19] Our work **Multi-Agent Collaboration via Evolving Orchestration** is accepted at <font color="RosyBrown">NeurIPS 2025</font>. Hope this is a good start.
 - [2025.9.3] Our technical report about GUI Agent is released on [arXiv](https://arxiv.org/pdf/2509.02444).
 - [2025.6] I received my bachelor’s degree from Tsinghua University, majoring in Mathematical & Physical Sciences (MPS) and Software Engineering. 
 - [2025.5.26] Our paper on evolving orchestration through reinforcement learning in multi-agent systems has been released on [arXiv](https://arxiv.org/abs/2505.19591).
@@ -45,7 +46,7 @@ Exploring the essence of intelligence contributes to a better world!
 **[AppCopilot: Toward General, Accurate,Long-Horizon, and Effcient Mobile Agent](https://arxiv.org/pdf/2509.02444)**\\
 Jingru Fan$^{†}$, **Yufan Dang**$^{†}$, Jingyao Wu, Huatao Li, Runde Yang, Xiyuan Yang, Yuheng Wang, ZhongZhang, Yaxi Lu, Yankai Lin, Zhiyuan Liu, Dahai Li, Chen Qian.
 
-**[Multi-Agent Collaboration via Evolving Orchestration](https://arxiv.org/abs/2505.19591)**.\\
+**[Multi-Agent Collaboration via Evolving Orchestration](https://arxiv.org/abs/2505.19591)**. NeurIPS 2025.\\
 **Yufan Dang**$^{†}$, Chen Qian$^{†}$, Xueheng Luo, Jingru Fan, Zihao Xie, Ruijie Shi, Weize Chen, Cheng Yang, Xiaoyin Che, Ye Tian, Xuantang Xiong, Lei Han, Zhiyuan Liu, Maosong Sun.
 
 **[Scaling Large-Language-Model-based Multi-Agent Collaboration.](https://arxiv.org/abs/2406.07155v1)**. ICLR 2025.\\
