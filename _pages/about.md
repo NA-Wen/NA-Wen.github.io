@@ -25,7 +25,7 @@ Exploring the essence of intelligence contributes to a better world!
 - Learning Theory & Machine Learning & Reinforcement Learning
 
 ## 🍺 News
-- [2026.1.7] **We release a new version of [ChatDev 2.0  - DevAll](https://github.com/OpenBMB/ChatDev)**. Welcome issues and PRs!
+- [2026.1.7] 🚀 We have released **[ChatDev 2.0 - DevAll](https://github.com/OpenBMB/ChatDev)**! We welcome issues and PRs. And special thanks to all the contributors for their hard work.
 - [2025.9.19] Our work **Multi-Agent Collaboration via Evolving Orchestration** is accepted at <font color="RosyBrown">NeurIPS 2025</font>. Hope this is a good start.
 - [2025.9.3] Our technical report about GUI Agent is released on [arXiv](https://arxiv.org/pdf/2509.02444).
 - [2025.6] I received my bachelor’s degree from Tsinghua University, majoring in Mathematical & Physical Sciences (MPS) and Software Engineering. 
