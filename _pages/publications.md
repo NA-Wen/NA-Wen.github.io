@@ -4,6 +4,10 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+**[AgentXRay: White-Boxing Agentic Systems via Workflow Reconstruction](https://arxiv.org/abs/2602.05353)**. ICML 2026.\\
+Ruijie Shi, Houbin Zhang, Yuecheng Han, Yuheng Wang, Jingru Fan, Runde Yang, **Yufan Dang**, Huatao Li, Dewen Liu, Yuan Cheng, Chen Qian
+
+
 **[AppCopilot: Toward General, Accurate,Long-Horizon, and Effcient Mobile Agent](https://arxiv.org/pdf/2509.02444)**\\
 Jingru Fan$^{†}$, **Yufan Dang**$^{†}$, Jingyao Wu, Huatao Li, Runde Yang, Xiyuan Yang, Yuheng Wang, ZhongZhang, Yaxi Lu, Yankai Lin, Zhiyuan Liu, Dahai Li, Chen Qian.
 
