@@ -43,7 +43,7 @@ Exploring the essence of intelligence contributes to a better world!
 - [2023.12.29]  Our recent work **Experiential Co-Learning of Software-Developing Agents** has released on [arXiv:2307.07924, 2023](https://arxiv.org/abs/2307.07924). 
 
 ## 💡 Publication
-**[ChatDev 2.0: A No-Code Multi-Agent Platform for Developing Everything](https://github.com/OpenBMB/ChatDev)**\\
+**[ChatDev 2.0: A No-Code Multi-Agent Platform for Developing Everything](https://github.com/OpenBMB/ChatDev)**. EMNLP 2026, Demo Track.\\
 **Yufan Dang**$^{†}$, Shu Yao$^{†}$, Bowen Lai, Chenting Xu, Ruijie Shi, Wai-Shing Leung, Huatao Li, Chen Qian, Zhiyuan Liu
 
 **[AgentXRay: White-Boxing Agentic Systems via Workflow Reconstruction](https://arxiv.org/abs/2602.05353)**\\
