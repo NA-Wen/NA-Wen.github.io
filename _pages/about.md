@@ -25,6 +25,7 @@ Exploring the essence of intelligence contributes to a better world!
 - Learning Theory & Machine Learning & Reinforcement Learning
 
 ## 🍺 News
+- [2026.8.23] ChatDev 2.0 - DevAll has been accepted to the EMNLP 2026 Demo Track with reviewer scores of 7, 7, and 8 🤓. We are preparing the camera-ready version and will upload the paper to arXiv upon completion, as soon as possible.
 - [2026.5.8] Our work **AgentXRay** is accepted at ICML 2026.
 - [2026.1.7] 🚀 We have released **[ChatDev 2.0 - DevAll](https://github.com/OpenBMB/ChatDev)**! We welcome issues and PRs. And special thanks to all the contributors for their hard work.
 - [2025.9.19] Our work **Multi-Agent Collaboration via Evolving Orchestration** is accepted at <font color="RosyBrown">NeurIPS 2025</font>. Hope this is a good start.
