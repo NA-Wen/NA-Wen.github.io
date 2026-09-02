@@ -7,25 +7,18 @@ redirect_from:
   - /about.html
 ---
 
-  My name is Yufan Dang (党余凡). I’m a master student at the Department of Computer Science, Tsinghua University (2025-2028), supervised by Zhiyuan Liu. I previously completed my undergraduate studies in Tsinghua University, with a double major in Mathematical & Physical Sciences (MPS) and Software Engineering.
-  I'm learning around LLM agent and multi agent, and engaged in [ChatDev](https://github.com/OpenBMB/ChatDev) as a main contributor. 
+  My name is Yufan Dang (党余凡). I’m a master student at the Department of Computer Science, Tsinghua University (2025-2028), supervised by [Zhiyuan Liu](https://nlp.csai.tsinghua.edu.cn/~lzy/). I previously completed my undergraduate studies in Tsinghua University, with a double major in Mathematical & Physical Sciences (MPS) and Software Engineering.
+
+  Previously, I focused on LLM agents and multi-agent systems, especially on how intelligence emerges from interactions among agents. I study whether multi-agent environments can improve the capabilities of individual agents, how collaborative behaviors naturally emerge, and how agents should be organized to foster both individual and collective intelligence. I am also actively involved in open-source projects. I have been a core contributor to [ChatDev](https://github.com/OpenBMB/ChatDev) and served as the project lead for its second-generation version.
+  More recently, I have become interested in bringing agents into the physical world. I believe that developing more general intelligence requires not only large-scale data, but also rich and complex environments with dynamic interactions, long-horizon feedback, and continual learning.
   
-  I have a passion for sharing _tech blogs_ on my [blog site](https://cuddly-athlete-ff1.notion.site/NA-Wen-s-blog-6efd65e06b934c369ba0f0ad7901c4f8), where I discuss the courses I am currently enrolled in and share insights into cutting-edge papers and news. Aside from research and tons of math and physics, I love volleyball 🏐/ gym workingout 🏋️‍♀️/ tennis 🎾/ hiking 🏞️ and I'm a violin enthusiast. 
-
+  I have a passion for sharing _tech blogs_ on my [blog site](https://cuddly-athlete-ff1.notion.site/NA-Wen-s-blog-6efd65e06b934c369ba0f0ad7901c4f8), where I discuss the courses I am currently enrolled in and share insights into cutting-edge papers and news. I am driven by a constant curiosity to learn, understand, and share new ideas. Aside from research and tons of math and physics, I love volleyball 🏐/ gym workingout 🏋️‍♀️/ tennis 🎾/ hiking 🏞️ and I'm a violin enthusiast. 
   
-  Feel free to reach me : [dangyf2003@gmail.com](mailto:dangyf2003@gmail.com). 
+  I am currently interested in opportunities in industry, especially at vision-driven companies and startups building toward the future. Feel free to reach me at [dangyf2003@gmail.com](mailto:dangyf2003@gmail.com).
 
-## 🧩 Research Interest:
-<div align="center">
-Exploring the essence of intelligence contributes to a better world!
-</div>
-
-- LLM-powered agent, multi agent
-- LLM reasoning, planning
-- Learning Theory & Machine Learning & Reinforcement Learning
 
 ## 🍺 News
-- [2026.8.23] ChatDev 2.0 - DevAll has been accepted to the EMNLP 2026 Demo Track with reviewer scores of 7, 7, and 8 🤓. We are preparing the camera-ready version and will upload the paper to arXiv upon completion, as soon as possible.
+- [2026.8.23] [ChatDev 2.0 - DevAll](https://arxiv.org/abs/2609.00714) has been accepted to the EMNLP 2026 Demo Track with reviewer scores of 7, 7, and 8 🤓.
 - [2026.5.8] Our work **AgentXRay** is accepted at ICML 2026.
 - [2026.1.7] 🚀 We have released **[ChatDev 2.0 - DevAll](https://github.com/OpenBMB/ChatDev)**! We welcome issues and PRs. And special thanks to all the contributors for their hard work.
 - [2025.9.19] Our work **Multi-Agent Collaboration via Evolving Orchestration** is accepted at <font color="RosyBrown">NeurIPS 2025</font>. Hope this is a good start.
