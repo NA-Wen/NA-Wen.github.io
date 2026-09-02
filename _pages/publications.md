@@ -4,6 +4,10 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+**[ChatDev 2.0: A No-Code Multi-Agent Platform for Developing Everything](https://arxiv.org/abs/2609.00714)**. EMNLP 2026, Demo Track.\\
+**Yufan Dang**$^{†}$, Shu Yao$^{†}$, Bowen Lai, Chenting Xu, Ruijie Shi, Wai-Shing Leung, Huatao Li, Chen Qian, Zhiyuan Liu
+
+
 **[AgentXRay: White-Boxing Agentic Systems via Workflow Reconstruction](https://arxiv.org/abs/2602.05353)**. ICML 2026.\\
 Ruijie Shi, Houbin Zhang, Yuecheng Han, Yuheng Wang, Jingru Fan, Runde Yang, **Yufan Dang**, Huatao Li, Dewen Liu, Yuan Cheng, Chen Qian
 
