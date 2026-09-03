@@ -13,7 +13,7 @@ redirect_from:
   
   I have a passion for sharing _tech blogs_ on my [blog site](https://cuddly-athlete-ff1.notion.site/NA-Wen-s-blog-6efd65e06b934c369ba0f0ad7901c4f8), where I discuss the courses I am currently enrolled in and share insights into cutting-edge papers and news. I am driven by a constant curiosity to learn, understand, and share new ideas. Aside from research and tons of math and physics, I love volleyball 🏐/ gym workingout 🏋️‍♀️/ tennis 🎾/ hiking 🏞️ and I'm a violin enthusiast. 
   
-  I am currently interested in opportunities in industry, especially at vision-driven companies and startups building toward the future. Feel free to reach me at [dangyf2003@gmail.com](mailto:dangyf2003@gmail.com).
+  I am currently interested in opportunities in industry, especially at vision-driven companies and startups building toward the future. Feel free to reach me at dangyf2003[at]gmail.com. If you reach out, please address me by my Chinese name or my nickname (you can find it everywhere, on my blog, GitHub, xiaohongshu and so on) in your email; otherwise, I may assume it’s a mass-generated or AI-generated message.
 
 
 ## 🍺 News
