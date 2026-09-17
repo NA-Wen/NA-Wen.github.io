@@ -9,11 +9,11 @@ redirect_from:
 
   My name is Yufan Dang (党余凡). I’m a master student at the Department of Computer Science, Tsinghua University (2025-2028), supervised by [Zhiyuan Liu](https://nlp.csai.tsinghua.edu.cn/~lzy/). I previously completed my undergraduate studies in Tsinghua University, with a double major in Mathematical & Physical Sciences (MPS) and Software Engineering.
 
-  Previously, I focused on LLM agents and multi-agent systems, especially on how intelligence emerges from interactions among agents. I study whether multi-agent environments can improve the capabilities of individual agents, how collaborative behaviors naturally emerge, and how agents should be organized to foster both individual and collective intelligence. I am also actively involved in open-source projects. I have been a core contributor to [ChatDev](https://github.com/OpenBMB/ChatDev) and served as the project lead for its second-generation version.
+  My current research focuses on embodied agents, with a particular interest in building intelligent agents that can perceive, reason, and act effectively in complex physical and interactive environments. Previously, I focused on LLM agents and multi-agent systems in text world, especially on how intelligence emerges from interactions among agents. I study whether multi-agent environments can improve the capabilities of individual agents, how collaborative behaviors naturally emerge, and how agents should be organized to foster both individual and collective intelligence. I am also actively involved in open-source projects. I have been a core contributor to [ChatDev](https://github.com/OpenBMB/ChatDev) and served as the project lead for its second-generation version.
   
   I have a passion for sharing _tech blogs_ on my [blog site](https://cuddly-athlete-ff1.notion.site/NA-Wen-s-blog-6efd65e06b934c369ba0f0ad7901c4f8), where I discuss the courses I am currently enrolled in and share insights into cutting-edge papers and news. I am driven by a constant curiosity to learn, understand, and share new ideas. Aside from research and tons of math and physics, I love volleyball 🏐/ gym workingout 🏋️‍♀️/ tennis 🎾/ hiking 🏞️ and I'm a violin enthusiast. 
   
-  I am currently interested in opportunities in industry, especially at vision-driven companies and startups building toward the future. Feel free to reach me at dangyf2003[at]gmail.com. If you reach out, please address me by my Chinese name or my nickname (you can find it everywhere, on my blog, GitHub, xiaohongshu and so on) in your email; otherwise, I may assume it’s a mass-generated or AI-generated message.
+  Feel free to reach me at dangyf2003[at]gmail.com. If you reach out, please address me by my Chinese name or my nickname (you can find it everywhere, on my blog, GitHub, xiaohongshu and so on) in your email; otherwise, I may assume it’s a mass-generated or AI-generated message.
 
 
 ## 🍺 News
@@ -23,16 +23,10 @@ redirect_from:
 - [2025.9.19] Our work **Multi-Agent Collaboration via Evolving Orchestration** is accepted at <font color="RosyBrown">NeurIPS 2025</font>. Hope this is a good start.
 - [2025.9.3] Our technical report about GUI Agent is released on [arXiv](https://arxiv.org/pdf/2509.02444).
 - [2025.6] I received my bachelor’s degree from Tsinghua University, majoring in Mathematical & Physical Sciences (MPS) and Software Engineering. 
-- [2025.5.26] Our paper on evolving orchestration through reinforcement learning in multi-agent systems has been released on [arXiv](https://arxiv.org/abs/2505.19591).
 - [2025.5.15] Our team's work about "Multi Agent Cross-Team Collaboration" is accepted by ACL 2025 Findings.
 - [2025.1.23] Our team's work around "Scaling LLM agent collaboration" is accepted by ICLR 2025.
 - [2024.9.26] Our team's work around LLM Agent under information asymmetry is accepted by NeurIPS 2024. Congrats 🥳!
-- [2024.8.11-2024.8.16] Our team attended ACL 2024 in Bangkok, amazing experience 😃.
-- [2024.6.14] Two papers related with multi-agent collaboration from the perspective of [intra-team](https://arxiv.org/abs/2406.07155v1) and [cross-team](https://arxiv.org/abs/2406.08979) organization have been released on arXiv first.
 - [2024.5.16] Our two papers have been accepted to <font color="RosyBrown">ACL 2024, main conference</font> 🥳. **Thanks to my best mentor and all co-authors!**
-- [2024.5.6]  Following our prior work on ECL, we're excited to announce the publication of our latest endeavor, **Iterative Experience Refinement of Software-Developing Agents**, available on [arXiv:2405.04219, 2024](https://arxiv.org/abs/2405.04219). 
-- [2024.1.25]  Code and data around **Experiential Co-Learning of Software-Developing Agents** has released in [ECL](https://github.com/OpenBMB/ChatDev/blob/main/wiki.md#experiential-co-learning-guide). 
-- [2023.12.29]  Our recent work **Experiential Co-Learning of Software-Developing Agents** has released on [arXiv:2307.07924, 2023](https://arxiv.org/abs/2307.07924). 
 
 ## 💡 Publication
 **[ChatDev 2.0: A No-Code Multi-Agent Platform for Developing Everything](https://arxiv.org/abs/2609.00714)**. EMNLP 2026, Demo Track.\\
