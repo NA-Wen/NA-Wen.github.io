@@ -134,6 +134,12 @@ h1, h2, h3 { color: var(--ink); }
 .editorial-shell > .publication-list { margin-bottom: 24px; }
 .editorial-shell > p { max-width: 720px; }
 .cv-download { margin: 8px 0 32px; }
+.site-map-list { margin: 0; padding: 0; list-style: none; }
+.site-map-list li { margin: 0; padding: 16px 0; border-top: 1px solid var(--line); }
+.site-map-list h2 { margin: 0 0 4px; font-size: 16px; font-weight: 500; }
+.site-map-list a { text-decoration: none; }
+.site-map-list a:hover { text-decoration: underline; }
+.site-map-list p { margin: 0; color: var(--muted); font-size: 13px; }
 .teaching-list { margin: 0; padding: 0; list-style: none; }
 .teaching-list li { margin: 0; padding: 24px 0; border-top: 1px solid var(--line); }
 .teaching-list .eyebrow { margin-bottom: 12px; }

@@ -1,0 +1,27 @@
+---
+layout: null
+permalink: /feed.xml
+sitemap: false
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <title>{{ site.title | xml_escape }} — Blog &amp; notes</title>
+  <subtitle>Notes on agents, learning theory, and building things.</subtitle>
+  <id>{{ '/feed.xml' | absolute_url | xml_escape }}</id>
+  <link href="{{ '/feed.xml' | absolute_url | xml_escape }}" rel="self" type="application/atom+xml"/>
+  <link href="{{ site.author.blog | xml_escape }}" rel="alternate" type="text/html"/>
+  {% assign articles = site.data.blog | sort: 'updated' | reverse %}
+  {% assign latest = articles | first %}
+  <updated>{{ latest.updated | default: site.time | date_to_xmlschema }}</updated>
+  <author><name>{{ site.author.name | xml_escape }}</name><uri>{{ '/' | absolute_url | xml_escape }}</uri></author>
+  {% for article in articles %}
+  <entry>
+    <title>{{ article.title | xml_escape }}</title>
+    <id>{{ article.url | xml_escape }}</id>
+    <link href="{{ article.url | xml_escape }}" rel="alternate" type="text/html"/>
+    <updated>{{ article.updated | default: site.time | date_to_xmlschema }}</updated>
+    <summary type="text">{{ article.summary | xml_escape }}</summary>
+    <category term="{{ article.topic | xml_escape }}"/>
+  </entry>
+  {% endfor %}
+</feed>

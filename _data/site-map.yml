@@ -1,0 +1,12 @@
+- title: About
+  url: /
+  description: My background, research interests, and recent updates.
+- title: Publications
+  url: /publications/
+  description: Papers, citation counts, and links to the research.
+- title: Teaching
+  url: /teaching/
+  description: Courses I have helped teach at Tsinghua University.
+- title: Curriculum vitae
+  url: /cv/
+  description: Download my CV.
