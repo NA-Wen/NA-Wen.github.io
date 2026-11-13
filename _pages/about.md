@@ -9,7 +9,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I’m a master’s student at the Department of Computer Science, **Tsinghua University** (2025–2028), supervised by [Zhiyuan Liu](https://nlp.csai.tsinghua.edu.cn/~lzy/). I previously studied Mathematical & Physical Sciences and Software Engineering at Tsinghua.
+I’m a master’s student at the Department of Computer Science, **Tsinghua University** (2025–2028), supervised by [Prof. Zhiyuan Liu](https://nlp.csai.tsinghua.edu.cn/~lzy/). I previously studied Mathematical & Physical Sciences and Software Engineering at Tsinghua.
 
 My current research focuses on **embodied agents**: building intelligent agents that perceive, reason, and act in complex physical and interactive environments. Previously, I worked on **LLM agents and multi-agent systems**, exploring how interaction improves individual capabilities, how collaboration emerges, and how to organize agents for individual and collective intelligence.
 
