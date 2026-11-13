@@ -1,0 +1,25 @@
+# Curated from the completed articles in NA-Wen's Notion blog.
+# `updated` is the source page's last edit date, not its publication date.
+- title: The New Mythical Man-Month in Vibe Coding Period
+  topic: Essay / AI coding
+  updated: "2026-06-25"
+  url: https://cuddly-athlete-ff1.notion.site/38a62c2a703480fbb276ee10350f9216
+  summary: Why faster implementation makes judgment, taste, and conceptual integrity even more important.
+
+- title: From AlphaGo Zero to LLM Planning
+  topic: Agents / Planning
+  updated: "2025-03-27"
+  url: https://cuddly-athlete-ff1.notion.site/3cc8c7b47d0246d6a5b6eff45d6536c0
+  summary: Exploring search, world models, and reinforcement learning for language-model planning.
+
+- title: Learning Theory Basic
+  topic: Learning theory
+  updated: "2024-11-20"
+  url: https://cuddly-athlete-ff1.notion.site/47a0c464977e4768a3cf20431dd8b79d
+  summary: Notes on PAC learning, generalization bounds, Rademacher complexity, and VC dimension.
+
+- title: From MCTS to AlphaGo Zero
+  topic: Reinforcement learning
+  updated: "2024-11-20"
+  url: https://cuddly-athlete-ff1.notion.site/10a337ceeedf48fcaf88dfad6ea6b35a
+  summary: From tree search and exploration to neural guidance and self-play in AlphaGo Zero.

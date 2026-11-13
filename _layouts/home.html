@@ -1,0 +1,80 @@
+---
+layout: default
+---
+<main id="main" class="home-shell" tabindex="-1">
+  <section class="home-intro" aria-labelledby="intro-title">
+    <div class="home-intro__copy">
+      <p class="eyebrow"><span class="accent-mark" aria-hidden="true">✳</span> A little about me</p>
+      <h1 id="intro-title">Yufan Dang<span class="chinese-name" lang="zh">党余凡</span></h1>
+      <p class="intro-affiliation">Master’s student in Computer Science<br>Tsinghua University · Beijing, China</p>
+      <p class="intro-note">Exploring how intelligent agents perceive, reason,<br class="desktop-break"> and act — together, and in the real world.</p>
+      <div class="profile-links" aria-label="Find me online">
+        <a class="contact-link" href="mailto:{{ site.author.email }}">Say hello <span aria-hidden="true">↗</span></a>
+        <a href="{{ site.author.googlescholar }}">Scholar <span aria-hidden="true">↗</span></a>
+        <a href="https://github.com/{{ site.author.github }}">GitHub <span aria-hidden="true">↗</span></a>
+        <a href="{{ site.author.blog }}">Blog <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+    <figure class="intro-portrait">
+      <img src="{{ base_path }}/images/{{ site.author.avatar }}" alt="Portrait of Yufan Dang" width="1390" height="1430" fetchpriority="high">
+      <figcaption>My undergraduate graduation at Tsinghua.</figcaption>
+    </figure>
+  </section>
+
+  <section class="home-section about-section" aria-labelledby="research-title">
+    <div class="section-label"><span class="section-number" aria-hidden="true">01 /</span><h2 id="research-title">Research &amp; a little more</h2></div>
+    <div class="section-body prose">{{ content }}</div>
+  </section>
+
+  <section class="home-section" aria-labelledby="news-title">
+    <div class="section-label"><span class="section-number" aria-hidden="true">02 /</span><h2 id="news-title">Lately</h2><span class="section-aside">News &amp; milestones</span></div>
+    <div class="section-body">
+      <ol class="news-list">
+        {% for item in site.data.news limit:4 %}
+        <li><time datetime="{{ item.date }}">{{ item.label }}</time><div>{{ item.text | markdownify }}</div></li>
+        {% endfor %}
+      </ol>
+      <details class="news-archive">
+        <summary>Earlier updates <span aria-hidden="true">+</span></summary>
+        <ol class="news-list">
+          {% for item in site.data.news offset:4 %}
+          <li><time datetime="{{ item.date }}">{{ item.label }}</time><div>{{ item.text | markdownify }}</div></li>
+          {% endfor %}
+        </ol>
+      </details>
+    </div>
+  </section>
+
+  <section class="home-section" aria-labelledby="publications-title">
+    <div class="section-label"><span class="section-number" aria-hidden="true">03 /</span><h2 id="publications-title">Publications</h2><span class="section-aside">{{ site.data.papers | size }} papers</span></div>
+    <div class="section-body">
+      {% include publication-list.html %}
+    </div>
+  </section>
+
+  <section class="home-section blog-section" aria-labelledby="blog-title">
+    <div class="section-label"><span class="section-number" aria-hidden="true">04 /</span><h2 id="blog-title">Blog &amp; notes</h2><a class="section-aside text-link" href="{{ site.author.blog }}">Visit my blog <span aria-hidden="true">↗</span></a></div>
+    <div class="section-body">
+      <p class="blog-intro">Notes on agents, learning theory, and building things.</p>
+      <ul class="blog-list">
+        {% for post in site.data.blog %}
+        <li>
+          <article class="blog-entry" aria-labelledby="blog-entry-{{ forloop.index }}">
+            <div class="blog-entry__meta"><span>{{ post.topic | escape }}</span>{% if post.updated %}<span>Updated <time datetime="{{ post.updated }}">{{ post.updated | date: '%b %Y' }}</time></span>{% endif %}</div>
+            <div class="blog-entry__body">
+              <h3 id="blog-entry-{{ forloop.index }}"><a href="{{ post.url }}">{{ post.title | escape }} <span aria-hidden="true">↗</span></a></h3>
+              <p>{{ post.summary | escape }}</p>
+            </div>
+          </article>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+
+  {% if page.personal_note %}
+  <aside class="personal-note" aria-label="Beyond research">
+    <p><span class="personal-note__label">Beyond research</span> {{ page.personal_note | escape }}</p>
+  </aside>
+  {% endif %}
+</main>

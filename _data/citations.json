@@ -1,0 +1,67 @@
+{
+  "source": "Semantic Scholar",
+  "source_url": "https://www.semanticscholar.org/",
+  "checked_on": "2026-11-13",
+  "papers": {
+    "2609.00714": {
+      "count": 1,
+      "url": "https://www.semanticscholar.org/paper/a9ab4e525273a023e745b93f099e97a3e98132db",
+      "paper_id": "a9ab4e525273a023e745b93f099e97a3e98132db",
+      "title": "ChatDev 2.0: A No-Code Multi-Agent Platform for Developing Everything"
+    },
+    "2602.05353": {
+      "count": 0,
+      "url": "https://www.semanticscholar.org/paper/2ceca7f97c7f2ac878304f85eea573293f1a0221",
+      "paper_id": "2ceca7f97c7f2ac878304f85eea573293f1a0221",
+      "title": "AgentXRay: White-Boxing Agentic Systems via Workflow Reconstruction"
+    },
+    "2509.02444": {
+      "count": 5,
+      "url": "https://www.semanticscholar.org/paper/6d2dbf831301cac045221fffc16315fac7d7646e",
+      "paper_id": "6d2dbf831301cac045221fffc16315fac7d7646e",
+      "title": "AppCopilot: Toward General, Accurate, Long-Horizon, and Efficient Mobile Agent"
+    },
+    "2505.19591": {
+      "count": 139,
+      "url": "https://www.semanticscholar.org/paper/e1938a3fbd505d9666ed252b191aaf96ffd5f0d7",
+      "paper_id": "e1938a3fbd505d9666ed252b191aaf96ffd5f0d7",
+      "title": "Multi-Agent Collaboration via Evolving Orchestration"
+    },
+    "2406.07155": {
+      "count": 317,
+      "url": "https://www.semanticscholar.org/paper/208d489c73ebf182faa974191355fb2505ce8da5",
+      "paper_id": "208d489c73ebf182faa974191355fb2505ce8da5",
+      "title": "Scaling Large-Language-Model-based Multi-Agent Collaboration"
+    },
+    "2406.14928": {
+      "count": 21,
+      "url": "https://www.semanticscholar.org/paper/c2f0c080588f6622410ef02ef034eae373b43529",
+      "paper_id": "c2f0c080588f6622410ef02ef034eae373b43529",
+      "title": "Autonomous Agents for Collaborative Task under Information Asymmetry"
+    },
+    "2406.08979": {
+      "count": 37,
+      "url": "https://www.semanticscholar.org/paper/d65265a88d7d5dc4833d7d0864deb6a6744b1cad",
+      "paper_id": "d65265a88d7d5dc4833d7d0864deb6a6744b1cad",
+      "title": "Multi-Agent Collaboration via Cross-Team Orchestration"
+    },
+    "2312.17025": {
+      "count": 79,
+      "url": "https://www.semanticscholar.org/paper/ac9a9849200a45c9541f5605a1ab2458370b87c4",
+      "paper_id": "ac9a9849200a45c9541f5605a1ab2458370b87c4",
+      "title": "Experiential Co-Learning of Software-Developing Agents"
+    },
+    "2307.07924": {
+      "count": 1468,
+      "url": "https://www.semanticscholar.org/paper/9474b463654fd92a62c103b21f95aed94b087907",
+      "paper_id": "9474b463654fd92a62c103b21f95aed94b087907",
+      "title": "ChatDev: Communicative Agents for Software Development"
+    },
+    "2405.04219": {
+      "count": 23,
+      "url": "https://www.semanticscholar.org/paper/0d2f6339287f6a5d356e216d505b57b37d5367ed",
+      "paper_id": "0d2f6339287f6a5d356e216d505b57b37d5367ed",
+      "title": "Iterative Experience Refinement of Software-Developing Agents"
+    }
+  }
+}

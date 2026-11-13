@@ -1,64 +1,23 @@
 ---
+layout: home
+modern_layout: true
 permalink: /
-excerpt: "About me"
-author_profile: true
-redirect_from: 
+excerpt: "Yufan Dang — embodied agents, LLM agents, and multi-agent systems at Tsinghua University."
+author_profile: false
+personal_note: "I love playing volleyball and am a beginner at tennis. I work out every day, and also enjoy hiking and the violin. I believe in strengthening the body, sharpening the mind, and working with others in a spirit of openness and generosity."
+redirect_from:
   - /about/
   - /about.html
 ---
+I’m a master’s student at the Department of Computer Science, **Tsinghua University** (2025–2028), supervised by [Zhiyuan Liu](https://nlp.csai.tsinghua.edu.cn/~lzy/). I previously studied Mathematical & Physical Sciences and Software Engineering at Tsinghua.
 
-  My name is Yufan Dang (党余凡). I’m a master student at the Department of Computer Science, Tsinghua University (2025-2028), supervised by [Zhiyuan Liu](https://nlp.csai.tsinghua.edu.cn/~lzy/). I previously completed my undergraduate studies in Tsinghua University, with a double major in Mathematical & Physical Sciences (MPS) and Software Engineering.
+My current research focuses on **embodied agents**: building intelligent agents that perceive, reason, and act in complex physical and interactive environments. Previously, I worked on **LLM agents and multi-agent systems**, exploring how interaction improves individual capabilities, how collaboration emerges, and how to organize agents for individual and collective intelligence.
 
-  My current research focuses on embodied agents, with a particular interest in building intelligent agents that can perceive, reason, and act effectively in complex physical and interactive environments. Previously, I focused on LLM agents and multi-agent systems in text world, especially on how intelligence emerges from interactions among agents. I study whether multi-agent environments can improve the capabilities of individual agents, how collaborative behaviors naturally emerge, and how agents should be organized to foster both individual and collective intelligence. I am also actively involved in open-source projects. I have been a core contributor to [ChatDev](https://github.com/OpenBMB/ChatDev) and served as the project lead for its second-generation version.
-  
-  I have a passion for sharing _tech blogs_ on my [blog site](https://cuddly-athlete-ff1.notion.site/NA-Wen-s-blog-6efd65e06b934c369ba0f0ad7901c4f8), where I discuss the courses I am currently enrolled in and share insights into cutting-edge papers and news. I am driven by a constant curiosity to learn, understand, and share new ideas. Aside from research and tons of math and physics, I love volleyball 🏐/ gym workingout 🏋️‍♀️/ tennis 🎾/ hiking 🏞️ and I'm a violin enthusiast. 
-  
-  Feel free to reach me at dangyf2003[at]gmail.com. If you reach out, please address me by my Chinese name or my nickname (you can find it everywhere, on my blog, GitHub, xiaohongshu and so on) in your email; otherwise, I may assume it’s a mass-generated or AI-generated message.
+I also care deeply about open source. I’m a core contributor to [ChatDev](https://github.com/OpenBMB/ChatDev) and led its second-generation version, **ChatDev 2.0 — DevAll**.
 
+<p class="research-dream">My dream is to build an agent with superhuman capabilities in both reasoning and real-world action — one that learns and grows through its own experience of the world.</p>
 
-## 🍺 News
-- [2026.8.23] [ChatDev 2.0 - DevAll](https://arxiv.org/abs/2609.00714) has been accepted to the EMNLP 2026 Demo Track with reviewer scores of 7, 7, and 8 🤓.
-- [2026.5.8] Our work **AgentXRay** is accepted at ICML 2026.
-- [2026.1.7] 🚀 We have released **[ChatDev 2.0 - DevAll](https://github.com/OpenBMB/ChatDev)**! We welcome issues and PRs. And special thanks to all the contributors for their hard work.
-- [2025.9.19] Our work **Multi-Agent Collaboration via Evolving Orchestration** is accepted at <font color="RosyBrown">NeurIPS 2025</font>. Hope this is a good start.
-- [2025.9.3] Our technical report about GUI Agent is released on [arXiv](https://arxiv.org/pdf/2509.02444).
-- [2025.6] I received my bachelor’s degree from Tsinghua University, majoring in Mathematical & Physical Sciences (MPS) and Software Engineering. 
-- [2025.5.15] Our team's work about "Multi Agent Cross-Team Collaboration" is accepted by ACL 2025 Findings.
-- [2025.1.23] Our team's work around "Scaling LLM agent collaboration" is accepted by ICLR 2025.
-- [2024.9.26] Our team's work around LLM Agent under information asymmetry is accepted by NeurIPS 2024. Congrats 🥳!
-- [2024.5.16] Our two papers have been accepted to <font color="RosyBrown">ACL 2024, main conference</font> 🥳. **Thanks to my best mentor and all co-authors!**
-
-## 💡 Publication
-**[ChatDev 2.0: A No-Code Multi-Agent Platform for Developing Everything](https://arxiv.org/abs/2609.00714)**. EMNLP 2026, Demo Track.\\
-**Yufan Dang**$^{†}$, Shu Yao$^{†}$, Bowen Lai, Chenting Xu, Ruijie Shi, Wai-Shing Leung, Huatao Li, Chen Qian, Zhiyuan Liu
-
-**[AgentXRay: White-Boxing Agentic Systems via Workflow Reconstruction](https://arxiv.org/abs/2602.05353)**\\
-Ruijie Shi, Houbin Zhang, Yuecheng Han, Yuheng Wang, Jingru Fan, Runde Yang, **Yufan Dang**, Huatao Li, Dewen Liu, Yuan Cheng, Chen Qian
-
-**[AppCopilot: Toward General, Accurate,Long-Horizon, and Effcient Mobile Agent](https://arxiv.org/pdf/2509.02444)**\\
-Jingru Fan$^{†}$, **Yufan Dang**$^{†}$, Jingyao Wu, Huatao Li, Runde Yang, Xiyuan Yang, Yuheng Wang, ZhongZhang, Yaxi Lu, Yankai Lin, Zhiyuan Liu, Dahai Li, Chen Qian.
-
-**[Multi-Agent Collaboration via Evolving Orchestration](https://arxiv.org/abs/2505.19591)**. NeurIPS 2025.\\
-**Yufan Dang**$^{†}$, Chen Qian$^{†}$, Xueheng Luo, Jingru Fan, Zihao Xie, Ruijie Shi, Weize Chen, Cheng Yang, Xiaoyin Che, Ye Tian, Xuantang Xiong, Lei Han, Zhiyuan Liu, Maosong Sun.
-
-**[Scaling Large-Language-Model-based Multi-Agent Collaboration.](https://arxiv.org/abs/2406.07155v1)**. ICLR 2025.\\
-Chen Qian$^{†}$, Zihao Xie$^{†}$, Yifei Wang$^{†}$, Wei Liu, **Yufan Dang**, Zhuoyun Du, Weize Chen, Cheng Yang, Zhiyuan Liu, Maosong Sun.
-
-
-**[Autonomous Agents for Collaborative Task under Information Asymmetry](https://arxiv.org/abs/2406.14928)**. NeurIPS 2024.\\
-Wei Liu, Chenxi Wang, Yifei Wang, Zihao Xie, Rennai Qiu, **Yufan Dang**, Zhuoyun Du, Weize Chen, Cheng Yang, Chen Qian.
-
-**[Multi-Agent Software Development through Cross-Team Collaboration.](https://arxiv.org/abs/2406.08979)**. ACL 2025 Findings.\\
-Zhuoyun Du, Chen Qian, Wei Liu, Zihao Xie, Yifei Wang, **Yufan Dang**, Weize Chen, Cheng Yang.
-
-
-**[Experiential Co-Learning of Software-Developing Agents](https://arxiv.org/abs/2312.17025)**. ACL 2024 main conference.\\
-Chen Qian$^{†}$, **Yufan Dang**$^{†}$, Jiahao Li, Wei Liu, Weize Chen, Cheng Yang, Zhiyuan Liu, Maosong Sun.
-
-**[Communicative Agents for Software Development](https://arxiv.org/abs/2307.07924)**. ACL 2024 main conference.\\
-Chen Qian, Xin Cong, Wei Liu, Cheng Yang, Weize Chen, Yusheng Su, **Yufan Dang** , Jiahao Li, Juyuan Xu, Dahai Li, Zhiyuan Liu, Maosong Sun.
-
-**[Iterative Experience Refinement of Software-Developing Agents](https://arxiv.org/abs/2405.04219)**.\\
-Chen Qian$^{†}$, Jiahao Li$^{†}$, **Yufan Dang**, Wei Liu, YiFei Wang, Zihao Xie, Weize Chen, Cheng Yang, Yingli Zhang, Zhiyuan Liu, Maosong Sun.
-
-$^{†}$: Equal Contribution
+<blockquote class="personal-quote" cite="https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf">
+  <p>“A new generation of agents will acquire superhuman capabilities by learning predominantly from experience.”</p>
+  <footer>— David Silver &amp; Richard S. Sutton, <a href="https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf"><cite>Welcome to the Era of Experience</cite> (2025)</a></footer>
+</blockquote>

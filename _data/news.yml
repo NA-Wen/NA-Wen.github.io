@@ -1,0 +1,31 @@
+- date: '2026-08-23'
+  label: Aug 2026
+  text: '[ChatDev 2.0 - DevAll](https://arxiv.org/abs/2609.00714) has been accepted to the EMNLP 2026 Demo Track with reviewer scores of 7, 7, and 8 🤓.'
+- date: '2026-05-08'
+  label: May 2026
+  text: Our work **AgentXRay** is accepted at ICML 2026.
+- date: '2026-01-07'
+  label: Jan 2026
+  text: 🚀 We have released **[ChatDev 2.0 - DevAll](https://github.com/OpenBMB/ChatDev)**! We welcome issues and PRs. And special thanks to all the contributors for
+    their hard work.
+- date: '2025-09-19'
+  label: Sep 2025
+  text: Our work **Multi-Agent Collaboration via Evolving Orchestration** is accepted at **NeurIPS 2025**. Hope this is a good start.
+- date: '2025-09-03'
+  label: Sep 2025
+  text: Our technical report about GUI Agent is released on [arXiv](https://arxiv.org/pdf/2509.02444).
+- date: 2025-06
+  label: Jun 2025
+  text: 'I received my bachelor’s degree from Tsinghua University, majoring in Mathematical & Physical Sciences (MPS) and Software Engineering. '
+- date: '2025-05-15'
+  label: May 2025
+  text: Our team's work about "Multi Agent Cross-Team Collaboration" is accepted by ACL 2025 Findings.
+- date: '2025-01-23'
+  label: Jan 2025
+  text: Our team's work around "Scaling LLM agent collaboration" is accepted by ICLR 2025.
+- date: '2024-09-26'
+  label: Sep 2024
+  text: Our team's work around LLM Agent under information asymmetry is accepted by NeurIPS 2024. Congrats 🥳!
+- date: '2024-05-16'
+  label: May 2024
+  text: Our two papers have been accepted to **ACL 2024, main conference** 🥳. **Thanks to my best mentor and all co-authors!**

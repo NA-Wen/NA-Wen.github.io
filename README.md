@@ -4,6 +4,17 @@ I think I've got things running smoothly and fixed some major bugs, but feel fre
 
 ### Note: if you are using this repo and now get a notification about a security vulnerability, delete the Gemfile.lock file. 
 
+## Personal site design
+
+The site uses a warm paper palette, restrained serif headings, and responsive layouts. The design is in `assets/css/editorial.css`; the homepage structure is in `_layouts/home.html`.
+
+- Edit the biography in `_pages/about.md` and profile links in `_config.yml`.
+- Add publications to `_data/papers.yml`. Both the homepage and `/publications/` show the complete list.
+- Set a paper's `authorship` to `first`, `first-equal` (first listed, equal contribution), or `co-first` to highlight it. Citation counts are a dated Semantic Scholar snapshot in `_data/citations.json`, matched by exact `arxiv_id`; keep the count, source link, and `checked_on` date together when updating.
+- Add news to `_data/news.yml`, newest first. Older entries remain available under “Earlier updates”.
+- Edit `_data/blog.yml` for the curated Notion article overview at the bottom of the homepage. Dates indicate source-page updates; this list is maintained locally and does not sync automatically.
+- The existing Jekyll / GitHub Pages build needs no JavaScript or CSS build step for this design.
+
 # Instructions
 
 1. Register a GitHub account if you don't have one and confirm your e-mail (required!)

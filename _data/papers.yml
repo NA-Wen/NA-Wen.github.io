@@ -1,0 +1,69 @@
+- title: 'ChatDev 2.0: A No-Code Multi-Agent Platform for Developing Everything'
+  url: https://arxiv.org/abs/2609.00714
+  venue: EMNLP · Demo
+  year: 2026
+  authors: '**Yufan Dang**<sup>†</sup>, Shu Yao<sup>†</sup>, Bowen Lai, Chenting Xu, Ruijie Shi, Wai-Shing Leung, Huatao Li, Chen Qian, Zhiyuan Liu'
+  code: https://github.com/OpenBMB/ChatDev
+  arxiv_id: '2609.00714'
+  authorship: first-equal
+- title: 'AgentXRay: White-Boxing Agentic Systems via Workflow Reconstruction'
+  url: https://arxiv.org/abs/2602.05353
+  venue: ICML
+  year: 2026
+  authors: Ruijie Shi, Houbin Zhang, Yuecheng Han, Yuheng Wang, Jingru Fan, Runde Yang, **Yufan Dang**, Huatao Li, Dewen Liu, Yuan Cheng, Chen Qian
+  arxiv_id: '2602.05353'
+- title: 'AppCopilot: Toward General, Accurate,Long-Horizon, and Effcient Mobile Agent'
+  url: https://arxiv.org/pdf/2509.02444
+  venue: Preprint
+  year: 2025
+  authors: Jingru Fan<sup>†</sup>, **Yufan Dang**<sup>†</sup>, Jingyao Wu, Huatao Li, Runde Yang, Xiyuan Yang, Yuheng Wang, ZhongZhang, Yaxi Lu, Yankai Lin, Zhiyuan
+    Liu, Dahai Li, Chen Qian.
+  arxiv_id: '2509.02444'
+  authorship: co-first
+- title: Multi-Agent Collaboration via Evolving Orchestration
+  url: https://arxiv.org/abs/2505.19591
+  venue: NeurIPS
+  year: 2025
+  authors: '**Yufan Dang**<sup>†</sup>, Chen Qian<sup>†</sup>, Xueheng Luo, Jingru Fan, Zihao Xie, Ruijie Shi, Weize Chen, Cheng Yang, Xiaoyin Che, Ye Tian, Xuantang
+    Xiong, Lei Han, Zhiyuan Liu, Maosong Sun.'
+  arxiv_id: '2505.19591'
+  authorship: first-equal
+- title: Scaling Large-Language-Model-based Multi-Agent Collaboration
+  url: https://arxiv.org/abs/2406.07155v1
+  venue: ICLR
+  year: 2025
+  authors: Chen Qian<sup>†</sup>, Zihao Xie<sup>†</sup>, Yifei Wang<sup>†</sup>, Wei Liu, **Yufan Dang**, Zhuoyun Du, Weize Chen, Cheng Yang, Zhiyuan Liu, Maosong
+    Sun.
+  arxiv_id: '2406.07155'
+- title: Autonomous Agents for Collaborative Task under Information Asymmetry
+  url: https://arxiv.org/abs/2406.14928
+  venue: NeurIPS
+  year: 2024
+  authors: Wei Liu, Chenxi Wang, Yifei Wang, Zihao Xie, Rennai Qiu, **Yufan Dang**, Zhuoyun Du, Weize Chen, Cheng Yang, Chen Qian.
+  arxiv_id: '2406.14928'
+- title: Multi-Agent Software Development through Cross-Team Collaboration
+  url: https://arxiv.org/abs/2406.08979
+  venue: ACL · Findings
+  year: 2025
+  authors: Zhuoyun Du, Chen Qian, Wei Liu, Zihao Xie, Yifei Wang, **Yufan Dang**, Weize Chen, Cheng Yang.
+  arxiv_id: '2406.08979'
+- title: Experiential Co-Learning of Software-Developing Agents
+  url: https://arxiv.org/abs/2312.17025
+  venue: ACL
+  year: 2024
+  authors: Chen Qian<sup>†</sup>, **Yufan Dang**<sup>†</sup>, Jiahao Li, Wei Liu, Weize Chen, Cheng Yang, Zhiyuan Liu, Maosong Sun.
+  arxiv_id: '2312.17025'
+  authorship: co-first
+- title: Communicative Agents for Software Development
+  url: https://arxiv.org/abs/2307.07924
+  venue: ACL
+  year: 2024
+  authors: Chen Qian, Xin Cong, Wei Liu, Cheng Yang, Weize Chen, Yusheng Su, **Yufan Dang** , Jiahao Li, Juyuan Xu, Dahai Li, Zhiyuan Liu, Maosong Sun.
+  arxiv_id: '2307.07924'
+- title: Iterative Experience Refinement of Software-Developing Agents
+  url: https://arxiv.org/abs/2405.04219
+  venue: Preprint
+  year: 2024
+  authors: Chen Qian<sup>†</sup>, Jiahao Li<sup>†</sup>, **Yufan Dang**, Wei Liu, YiFei Wang, Zihao Xie, Weize Chen, Cheng Yang, Yingli Zhang, Zhiyuan Liu, Maosong
+    Sun.
+  arxiv_id: '2405.04219'
