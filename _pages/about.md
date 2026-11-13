@@ -4,7 +4,7 @@ modern_layout: true
 permalink: /
 excerpt: "Yufan Dang — embodied agents, LLM agents, and multi-agent systems at Tsinghua University."
 author_profile: false
-personal_note: "I love playing volleyball and am a beginner at tennis. I work out every day, and also enjoy hiking and the violin. I believe in strengthening the body, sharpening the mind, and working with others in a spirit of openness and generosity."
+personal_note: "I love playing volleyball and am a beginner at tennis. I work out every day — currently squatting 60 kg for 8 reps and bench pressing 30 kg for 2 reps. I haven’t deadlifted in a long time because of a herniated lumbar disc. I also enjoy hiking and the violin. I believe in strengthening the body, sharpening the mind, and working with others in a spirit of openness and generosity."
 redirect_from:
   - /about/
   - /about.html
