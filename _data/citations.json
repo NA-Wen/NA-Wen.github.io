@@ -1,8 +1,14 @@
 {
   "source": "Semantic Scholar",
   "source_url": "https://www.semanticscholar.org/",
-  "checked_on": "2026-11-13",
+  "checked_on": "2026-11-14",
   "papers": {
+    "2611.16009": {
+      "count": 0,
+      "url": "https://www.semanticscholar.org/paper/5baab0e81aae7d61e63738f68df6b9a012469dca",
+      "paper_id": "5baab0e81aae7d61e63738f68df6b9a012469dca",
+      "title": "JustRUA: A Controlled Study of GPT-6 Robot-Use Agents"
+    },
     "2609.00714": {
       "count": 1,
       "url": "https://www.semanticscholar.org/paper/a9ab4e525273a023e745b93f099e97a3e98132db",
@@ -52,7 +58,7 @@
       "title": "Experiential Co-Learning of Software-Developing Agents"
     },
     "2307.07924": {
-      "count": 1468,
+      "count": 1470,
       "url": "https://www.semanticscholar.org/paper/9474b463654fd92a62c103b21f95aed94b087907",
       "paper_id": "9474b463654fd92a62c103b21f95aed94b087907",
       "title": "ChatDev: Communicative Agents for Software Development"

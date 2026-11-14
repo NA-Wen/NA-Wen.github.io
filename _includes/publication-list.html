@@ -1,10 +1,11 @@
 <ol class="publication-list">
   {% for paper in site.data.papers limit:include.limit %}
   {% assign citation = site.data.citations.papers[paper.arxiv_id] %}
-  <li class="publication{% if paper.authorship %} publication--lead{% endif %}">
+  <li class="publication{% if paper.authorship %} publication--lead{% endif %}{% if paper.contribution == 'core' %} publication--contributor{% endif %}">
     <div class="publication__meta">
       <span class="venue{% if paper.venue == 'Preprint' %} venue--preprint{% endif %}">{{ paper.venue }}</span><span>{{ paper.year }}</span>
       {% if paper.authorship == 'first-equal' %}<span class="authorship-badge" aria-label="Yufan Dang: first-listed author with equal contribution">First author · Equal contribution</span>{% elsif paper.authorship == 'co-first' %}<span class="authorship-badge" aria-label="Yufan Dang: co-first author">Co-first author</span>{% elsif paper.authorship == 'first' %}<span class="authorship-badge" aria-label="Yufan Dang: first author">First author</span>{% endif %}
+      {% if paper.contribution == 'core' %}<span class="authorship-badge" aria-label="Yufan Dang: core contributor">Core contributor</span>{% endif %}
     </div>
     <h3><a href="{{ paper.url }}">{{ paper.title }} <span class="publication__arrow" aria-hidden="true">↗</span></a></h3>
     <p class="publication__authors">{{ paper.authors | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
@@ -15,5 +16,5 @@
   </li>
   {% endfor %}
 </ol>
-<p class="contribution-note"><sup>†</sup> Equal contribution. Highlighted entries indicate first / co-first authorship.</p>
+<p class="contribution-note"><sup>†</sup> Equal contribution. <sup>*</sup> Core contributor. Highlighted entries indicate first / co-first authorship or a core-contributor role.</p>
 <p class="citation-note">Citation counts: <a href="{{ site.data.citations.source_url }}">{{ site.data.citations.source }}</a> · checked <time datetime="{{ site.data.citations.checked_on }}">{{ site.data.citations.checked_on | date: '%d %b %Y' }}</time>.</p>

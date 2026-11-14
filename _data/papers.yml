@@ -1,3 +1,11 @@
+- title: 'JustRUA: A Controlled Study of GPT-6 Robot-Use Agents'
+  url: https://arxiv.org/html/2611.16009
+  venue: Preprint
+  year: 2026
+  authors: 'Zefan Wang<sup>*</sup>, **Yufan Dang**<sup>*</sup>, Xuanwei Shi<sup>*</sup>, Mingqi Gao<sup>*</sup>, Cheng Yin, SikYuen Tam, Hanyu Liu, Yasheng Wang, Yaxi Lu, Songyang Zhang, Xin Cong, Yuan Yao.'
+  code: https://github.com/ZefanW/JustRUA
+  arxiv_id: '2611.16009'
+  contribution: core
 - title: 'ChatDev 2.0: A No-Code Multi-Agent Platform for Developing Everything'
   url: https://arxiv.org/abs/2609.00714
   venue: EMNLP · Demo
