@@ -4,6 +4,18 @@
   width: 1280
   height: 1707
   position: 50% 70%
+- src: /images/icml-2026.jpg
+  alt: Yufan Dang at ICML 2026.
+  caption: At ICML · 2026
+  width: 1207
+  height: 1280
+  position: 50% 40%
+- src: /images/agi-bar-beijing-2025.jpg
+  alt: Yufan Dang giving a talk at AGI Bar in Beijing, 2025.
+  caption: At AGI Bar, Beijing · 2025
+  width: 1706
+  height: 1279
+  position: 28% 50%
 - src: /images/avatar.png
   alt: Yufan Dang at undergraduate graduation, Tsinghua University.
   caption: My undergraduate graduation at Tsinghua.
