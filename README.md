@@ -9,6 +9,7 @@ I think I've got things running smoothly and fixed some major bugs, but feel fre
 The site uses a warm paper palette, restrained serif headings, and responsive layouts. The design is in `assets/css/editorial.css`; the homepage structure is in `_layouts/home.html`.
 
 - Edit the biography in `_pages/about.md` and profile links in `_config.yml`.
+- Manage the homepage photo stack in `_data/photos.yml`; the first photo is shown in front initially. Clicking an exposed photo brings it forward and updates its caption. The photo buttons also support Enter, Space, and Left/Right arrow keys.
 - Add publications to `_data/papers.yml`. Both the homepage and `/publications/` show the complete list.
 - Set a paper's `authorship` to `first`, `first-equal` (first listed, equal contribution), or `co-first` to highlight it. Use `contribution: core` for a separate core-contributor badge without implying co-first authorship. Citation counts are a dated Semantic Scholar snapshot in `_data/citations.json`, matched by exact `arxiv_id`; keep the count, source link, and `checked_on` date together when updating.
 - Add news to `_data/news.yml`, newest first. Older entries remain available under “Earlier updates”.
