@@ -146,12 +146,9 @@ h1, h2, h3 { color: var(--ink); }
 .site-map-list a { text-decoration: none; }
 .site-map-list a:hover { text-decoration: underline; }
 .site-map-list p { margin: 0; color: var(--muted); font-size: 13px; }
-.teaching-list { margin: 0; padding: 0; list-style: none; }
-.teaching-list li { margin: 0; padding: 24px 0; border-top: 1px solid var(--line); }
-.teaching-list .eyebrow { margin-bottom: 12px; }
-.teaching-list h2 { margin: 0 0 12px; font-family: var(--serif); font-size: 24px; font-weight: 400; }
-.teaching-list p:not(.eyebrow) { margin: 0; font-size: 14px; }
-.teaching-list .teaching-tracks { color: var(--muted); font-size: 12px !important; }
+.service-content h3 { margin: 0 0 8px; font-family: var(--sans); font-size: 14px; font-weight: 600; }
+.service-content .teaching-terms { margin: 0 0 20px; padding: 0; list-style: none; }
+.teaching-terms li { display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: 16px; margin: 0; padding: 4px 0; color: var(--muted); font-size: 12px; }
 #main:not(.home-shell):not(.editorial-shell) { width: 100%; max-width: 1088px; padding: 48px 32px; }
 .page__title { font-family: var(--serif); font-weight: 400; font-size: 32px; line-height: 1.25; }
 .page__content h2 { font-family: var(--serif); font-weight: 400; font-size: 25px; }

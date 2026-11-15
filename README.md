@@ -13,6 +13,7 @@ The site uses a warm paper palette, restrained serif headings, and responsive la
 - Add publications to `_data/papers.yml`. Both the homepage and `/publications/` show the complete list.
 - Set a paper's `authorship` to `first`, `first-equal` (first listed, equal contribution), or `co-first` to highlight it. Use `contribution: core` for a separate core-contributor badge without implying co-first authorship. Citation counts are a dated Semantic Scholar snapshot in `_data/citations.json`, matched by exact `arxiv_id`; keep the count, source link, and `checked_on` date together when updating.
 - Add news to `_data/news.yml`, newest first. Older entries remain available under “Earlier updates”.
+- Edit `_data/teaching.yml` for the semesters in homepage section 05, “Teaching & service”. The former `/teaching/` URL redirects to this section.
 - Edit `_data/blog.yml` for the curated Notion article overview at the bottom of the homepage. Dates indicate source-page updates; this list is maintained locally and does not sync automatically.
 - The Atom feed at `/feed.xml` uses the same curated blog list and links to the original Notion articles. `_data/site-map.yml` controls both the readable `/sitemap/` and the crawler-facing `/sitemap.xml`, keeping template examples out of these indexes. The footer links directly to Scholar, Blog, and GitHub.
 - The existing Jekyll / GitHub Pages build needs no JavaScript or CSS build step for this design.
